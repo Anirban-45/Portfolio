@@ -2,5 +2,17 @@
 
 $primary: #534666;
 $background: #F1FAEE;
+$font-primary: white;
 
 $font-main: 'DM Sans', sans-serif;
+
+@mixin margin-lr($space){
+    margin-left: $space;
+    margin-right: $space;
+}
+
+@mixin flex-align(){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

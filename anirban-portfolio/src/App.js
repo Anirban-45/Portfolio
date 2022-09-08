@@ -9,9 +9,9 @@ import Contact from './screens/Contact'
 
 function App() {
     return (
-        <>
-            <Navbar />
+
             <Router>
+                <Navbar />
                 <Routes>
                     <Route path="/" element={<Home/>} />
                     <Route path="/about" element={<About/>} />
@@ -19,7 +19,7 @@ function App() {
                     <Route path="/contact" element={<Contact/>} />
                 </Routes>
             </Router>
-        </>
+
     );
 }
 
