@@ -1,0 +1,65 @@
+@import "variables.scss";
+
+.container{
+    @include flex-align();
+    @include margin-lr(140px);
+
+    &-text{
+        font-family: $font-body;
+        font-weight: 600;
+        align-self: center;
+        margin-right: 80px;
+
+        .main-pg{
+            font-size: 40px;
+
+            .colored-text-1{
+                &:hover{
+                    color: $font-color1;
+                }
+            }
+
+            .colored-text-2{
+                &:hover{
+                    color: $font-color2;
+                }
+            }
+        }
+
+        p.second-pg-1{
+            font-size: 22px;
+            margin-bottom: 0px;
+        }
+
+        p.second-pg-2{
+            font-size: 28px;
+            margin-top: 0px;
+
+            .colored-text-3{
+                &:hover{
+                    color: $font-color3;
+                }
+            }
+
+            .colored-text-4{
+                &:hover{
+                    color: $font-color4;
+                }
+            }
+        }
+
+        p.desc-pg-1.desc-pg-2{
+            font-size: 22px;
+        }
+
+        .colored-text-5{
+            color: $font-color5;
+        }
+    }
+
+    img{
+        width: 250px;
+        height: 250px;
+        border-radius: 130px;
+    }
+}

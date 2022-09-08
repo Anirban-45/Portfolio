@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/Navbar.css'
 import {Link} from 'react-router-dom'
-import stingray from '../assets/str-logo.png'
+import stingray from '../assets/stingray.png'
 
 const linkStyle = {
   margin: "1.5rem",
