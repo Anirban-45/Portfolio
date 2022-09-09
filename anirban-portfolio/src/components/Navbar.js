@@ -1,13 +1,7 @@
 import React from 'react';
 import '../styles/Navbar.css'
-import {Link} from 'react-router-dom'
+import {NavLink} from 'react-router-dom'
 import stingray from '../assets/stingray.png'
-
-const linkStyle = {
-  margin: "1.5rem",
-  textDecoration: "none",
-  color: 'white'
-};
 
 function Navbar() {
     return(
@@ -19,10 +13,10 @@ function Navbar() {
                         Anirban
                     </div>
                     <div className="navbar-item">
-                        <Link to="/" style={linkStyle}>Home</Link>
-                        <Link to="/about" style={linkStyle}>About</Link>
-                        <Link to="/work" style={linkStyle}>Work</Link>
-                        <Link to="/contact" style={linkStyle}>Contact</Link>
+                        <NavLink to="/" activeClassName="navlinks">Home</NavLink>
+                        <NavLink to="/about" activeClassName="navlinks">About</NavLink>
+                        <NavLink to="/work" activeClassName="navlinks">Work</NavLink>
+                        <NavLink to="/contact" activeClassName="navlinks">Contact</NavLink>
                     </div>
                 </div>
             </nav>
