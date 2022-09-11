@@ -1,8 +1,8 @@
 @import "variables.scss";
 
 .footer-body{
-    height: 220px;
-    background-color: #582841;
+    height: 300px;
+    background-color: $primary;
     margin-top: 50px;
     font-family: $font-main;
     color: $font-primary;
@@ -10,7 +10,7 @@
 
     .head{
         @include flex-align;
-        padding-top: 20px;
+        padding-top: 40px;
 
         .fs1{
             @include flex-align;
@@ -29,11 +29,91 @@
     width: 12px;
     height: 12px;
     border-radius: 5px;
-    background-color: #9BD7D1;
+    background-color: white;
 }
 
 .lines{
     width: 300px;
     height: 3.5px;
-    background-color: #9BD7D1;
+    background-color: white;
+}
+
+.icon{
+    width: 25px;
+    height: 25px;
+    padding: 10px;
+    color: white;
+
+    &:hover{
+        color: #EFC958;
+        transition: all ease-in-out 0.35s;
+    }
+}
+
+
+.footer-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    @include margin-lr(320px);
+}
+
+.footer-left{
+    display: flex;
+    flex-direction: column;
+
+    .others-text{
+        font-weight: 600;
+        font-size: 20px;
+        text-align: center;
+
+    }
+
+    .other-links{
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 10px;
+
+        a{
+            text-decoration: none;
+            color: white;
+            margin: 8px;
+
+        }
+
+        span{
+            margin: 8px;
+
+            &:hover{
+                font-weight: 600;
+                color: #EFC958;
+                text-decoration: underline;
+                transition: all ease-in-out 0.3s;
+            }
+        }
+    }
+}
+
+.footer-right{
+    display: flex;
+    flex-direction: column;
+    margin-block-start: -20px;
+
+
+    .social-text{
+        padding: 10px;
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    .icons{
+
+    }
+
+    .rights{
+        padding: 12px;
+    }
 }
