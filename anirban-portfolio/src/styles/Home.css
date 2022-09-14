@@ -83,6 +83,29 @@
   border-radius: 130px;
 }
 
+.container .layer-text {
+  font-family: "DM Sans", sans-serif;
+  font-size: 40px;
+  margin-top: 60px;
+}
+
+.container .layer-text::after {
+  content: '';
+  z-index: -1;
+  position: absolute;
+  right: 73.5%;
+  bottom: 5%;
+  width: 18.5%;
+  height: 12px;
+  transition: all ease-in-out 0.35s;
+  background: #efd375;
+}
+
+.container .layer-text:hover::after {
+  right: 73.5%;
+  transform: scaleY(1.4);
+}
+
 .container-card {
   display: flex;
   align-items: center;

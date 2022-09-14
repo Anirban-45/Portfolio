@@ -45,7 +45,7 @@
     color: white;
 
     &:hover{
-        color: #EFC958;
+        color: $tertiary;
         transition: all ease-in-out 0.35s;
     }
 }
@@ -89,7 +89,7 @@
 
             &:hover{
                 font-weight: 600;
-                color: #EFC958;
+                color: $tertiary;
                 text-decoration: underline;
                 transition: all ease-in-out 0.3s;
             }

@@ -1,0 +1,31 @@
+@import "./variables.scss";
+
+.Cform{
+    @include flex-align;
+    flex-direction: column;
+
+
+    div{
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+
+    label{
+        font-family: $font-main;
+    }
+
+    input{
+        font-family: $font-main;
+        width: 500px;
+    }
+    textarea{
+        font-family: $font-main;
+        width: 500px;
+    }
+
+    .subbutton{
+        width: 100px;
+    }
+}

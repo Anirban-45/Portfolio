@@ -38,11 +38,13 @@ function Home() {
                 </div>
                 <img src={profile} alt=""/>
             </div>
+            <div className="layer-text">My line of work</div>
             <div className="container-card">
                 <Card image={research} title="Strategy Research" description="Understand the market, define the audience, and ideate potential solutions."/>
                 <Card image={product} title="Product Design" description="Understand the market, define the audience, and ideate potential solutions."/>
                 <Card image={development} title="Front-end Development " description="Understand the market, define the audience, and ideate potential solutions."/>
             </div>
+            <div className="layer-text">Recent works</div>
         </div>
     )
 }

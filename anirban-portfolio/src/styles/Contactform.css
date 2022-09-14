@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+.Cform {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Cform div {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.Cform label {
+  font-family: "DM Sans", sans-serif;
+}
+
+.Cform input {
+  font-family: "DM Sans", sans-serif;
+  width: 500px;
+}
+
+.Cform textarea {
+  font-family: "DM Sans", sans-serif;
+  width: 500px;
+}
+
+.Cform .subbutton {
+  width: 100px;
+}
