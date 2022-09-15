@@ -15,19 +15,24 @@
 
     label{
         font-family: $font-main;
+        margin: 0px 5px 5px 5px;
     }
 
     input{
         font-family: $font-main;
         width: 500px;
-        height: 25px;
-        border: #138086 2px solid;
+        border: #9a9c9e .5px solid;
+        box-sizing: border-box;
+        border-radius: 0px;
+        padding: 10px;
     }
     textarea{
         font-family: $font-main;
-        width: 500px;
-        height: 250px;
-        border: #138086 2px solid;
+        width: 480px;
+        height: 200px;
+        border: #9a9c9e .5px solid;
+        padding: 10px;
+        border-radius: 0px;
     }
 
     .subbutton{
@@ -36,6 +41,7 @@
         border-radius: 15px;
         margin-top: 20px;
         border-width: 0;
+        padding: 5px;
         background-color: $tertiary;
 
     }

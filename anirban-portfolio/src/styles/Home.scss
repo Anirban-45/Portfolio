@@ -94,9 +94,9 @@
             z-index: -1;
             position: absolute;
             right: 73.5%;
-            bottom: 5%;
             width: 18.5%;
             height: 12px;
+            margin-top: 25px;
             transition: all ease-in-out 0.35s;
             background: #efd375;
 
@@ -104,7 +104,7 @@
 
         &:hover::after{
             right: 73.5%;
-            transform: scaleY(1.4);
+            transform: scaleY(1.5);
         }
     }
 
