@@ -10,6 +10,7 @@
         align-items: flex-start;
         justify-content: flex-start;
         flex-direction: column;
+        margin-top: 20px;
     }
 
     label{
@@ -19,13 +20,23 @@
     input{
         font-family: $font-main;
         width: 500px;
+        height: 25px;
+        border: #138086 2px solid;
     }
     textarea{
         font-family: $font-main;
         width: 500px;
+        height: 250px;
+        border: #138086 2px solid;
     }
 
     .subbutton{
         width: 100px;
+        height: 30px;
+        border-radius: 15px;
+        margin-top: 20px;
+        border-width: 0;
+        background-color: $tertiary;
+
     }
 }
