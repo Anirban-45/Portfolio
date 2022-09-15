@@ -13,7 +13,7 @@ function Navbar() {
                         Anirban
                     </div>
                     <div className="navbar-item">
-                        <NavLink to="/" activeClassName="navlinks">Home</NavLink>
+                        <NavLink to="/Portfolio" activeClassName="navlinks">Home</NavLink>
                         <NavLink to="/about" activeClassName="navlinks">About</NavLink>
                         <NavLink to="/work" activeClassName="navlinks">Work</NavLink>
                         <NavLink to="/contact" activeClassName="navlinks">Contact</NavLink>
