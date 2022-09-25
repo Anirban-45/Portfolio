@@ -15,7 +15,7 @@ function About() {
                     <div style={{fontWeight: "700", color: "#2C8DD3"}}>The things I've done so far are a pursuit to relate to people and their ease and accessibiliy.</div>
                     <div>And as a designer I'm looking for just a group of people whom I can explore these Ideas.</div>
                 </div>
-                <img src={face} className="face"/>
+                <img src={face} className="face" alt=""/>
             </div>
             <div className="mid-text">
                 <div style={{fontSize: "28px", fontWeight: "600", color: "#B83F3F"}}>What lead me here</div>
