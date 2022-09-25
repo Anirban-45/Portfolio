@@ -1,0 +1,46 @@
+@import "./variables.scss";
+
+.about-body{
+    @include margin-lr(150px);
+    font-family: $font-main;
+
+    .about-top{
+        margin-top: 90px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .top-text{
+            width: 500px;
+            line-height: 26px;
+        }
+
+
+        div{
+            margin-bottom: 19px;
+        }
+
+        .face{
+            width: 600px;
+        }
+    }
+
+    .mid-text{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .bottom-text{
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+
+        .bottom-right{
+            width: 500px;
+        }
+
+        .bottom-left{
+            width: 500px;
+        }
+    }
+}
