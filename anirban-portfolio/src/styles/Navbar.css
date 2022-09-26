@@ -76,6 +76,18 @@
   transform: scaleX(0.4);
 }
 
+.navbar-container .hamburger {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar-container .hamburger {
+    display: block;
+    padding-top: 20px;
+    cursor: pointer;
+  }
+}
+
 .active {
   padding: 8px 18px;
   border-radius: 25px;
