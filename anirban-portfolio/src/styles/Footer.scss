@@ -30,12 +30,21 @@
     height: 12px;
     border-radius: 5px;
     background-color: $secondary;
+    @media only screen and (max-width: 768px) {
+        width: 0px;
+    }
 }
 
 .lines{
     width: 300px;
     height: 3.5px;
     background-color: $secondary;
+    @media only screen and (max-width: 1024px) {
+        width: 200px;
+    }
+    @media only screen and (max-width: 768px) {
+        width: 0px;
+    }
 }
 
 .icon{
@@ -57,6 +66,12 @@
     justify-content: space-between;
     margin-top: 50px;
     @include margin-lr(320px);
+    @media only screen and (max-width: 1028px) {
+        @include margin-lr(120px);
+    }
+    @media only screen and (max-width: 768px) {
+        @include margin-lr(0px);
+    }
 }
 
 .footer-left{

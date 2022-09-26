@@ -83,6 +83,12 @@
   border-radius: 130px;
 }
 
+@media only screen and (max-width: 768px) {
+  .container-front img {
+    display: none;
+  }
+}
+
 .container .layer-text {
   font-family: "DM Sans", sans-serif;
   font-size: 40px;

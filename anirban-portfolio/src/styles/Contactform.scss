@@ -25,6 +25,9 @@
         box-sizing: border-box;
         border-radius: 0px;
         padding: 10px;
+        @media only screen and (max-width: 426px){
+            width: 300px;
+        }
     }
     textarea{
         font-family: $font-main;
@@ -33,6 +36,9 @@
         border: #9a9c9e .5px solid;
         padding: 10px;
         border-radius: 0px;
+        @media only screen and (max-width: 426px){
+            width: 280px;
+        }
     }
 
     .subbutton{

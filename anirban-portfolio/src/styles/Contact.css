@@ -16,9 +16,21 @@
   width: 505px;
 }
 
+@media only screen and (max-width: 426px) {
+  .Ccontainer .top-welcome {
+    width: 300px;
+  }
+}
+
 .Ccontainer .top-welcome #top-label {
   font-family: "DM Sans", sans-serif;
   font-size: 30px;
   font-weight: 500;
   text-align: left;
+}
+
+@media only screen and (max-width: 426px) {
+  .Ccontainer .top-welcome #top-label {
+    font-size: 25px;
+  }
 }

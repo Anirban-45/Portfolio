@@ -36,10 +36,28 @@
   background-color: #CD7672;
 }
 
+@media only screen and (max-width: 768px) {
+  .circle {
+    width: 0px;
+  }
+}
+
 .lines {
   width: 300px;
   height: 3.5px;
   background-color: #CD7672;
+}
+
+@media only screen and (max-width: 1024px) {
+  .lines {
+    width: 200px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .lines {
+    width: 0px;
+  }
 }
 
 .icon {
@@ -61,6 +79,20 @@
   margin-top: 50px;
   margin-left: 320px;
   margin-right: 320px;
+}
+
+@media only screen and (max-width: 1028px) {
+  .footer-bottom {
+    margin-left: 120px;
+    margin-right: 120px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .footer-bottom {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
 }
 
 .footer-left {
