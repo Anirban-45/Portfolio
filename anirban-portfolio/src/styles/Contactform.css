@@ -31,7 +31,7 @@
 
 @media only screen and (max-width: 426px) {
   .Cform input {
-    width: 300px;
+    width: 320px;
   }
 }
 
@@ -46,7 +46,7 @@
 
 @media only screen and (max-width: 426px) {
   .Cform textarea {
-    width: 280px;
+    width: 300px;
   }
 }
 

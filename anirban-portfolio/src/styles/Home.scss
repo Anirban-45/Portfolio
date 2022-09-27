@@ -2,6 +2,9 @@
 
 .container{
     @include margin-lr(120px);
+    @media only screen and (max-width: 426px) {
+        @include margin-lr(30px);
+    }
 
     &-front{
         @include flex-align();
@@ -91,28 +94,20 @@
         font-family: $font-main;
         font-size: 40px;
         margin-top: 60px;
-
-        &::after{
-            content: '';
-            z-index: -1;
-            position: absolute;
-            right: 73.5%;
-            width: 18.5%;
-            height: 12px;
-            margin-top: 25px;
-            transition: all ease-in-out 0.35s;
-            background: #efd375;
-
+        @media only screen and (max-width: 426px) {
+            display: flex;
+            flex-direction: column;
         }
 
-        &:hover::after{
-            right: 73.5%;
-            transform: scaleY(1.5);
-        }
     }
 
     &-card{
         @include flex-align;
         justify-content: space-between;
+
+        @media only screen and (max-width: 426px) {
+            display: flex;
+            flex-direction: column;
+        }
     }
 }

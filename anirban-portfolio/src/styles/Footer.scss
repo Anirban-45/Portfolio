@@ -6,6 +6,9 @@
     margin-top: 50px;
     font-family: $font-main;
     color: $font-primary;
+    @media only screen and (max-width: 426px) {
+        height: 200px;
+    }
 
 
     .head{
@@ -72,11 +75,19 @@
     @media only screen and (max-width: 768px) {
         @include margin-lr(0px);
     }
+    @media only screen and (max-width: 768px) {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 .footer-left{
     display: flex;
     flex-direction: column;
+    @media only screen and (max-width: 426px){
+        display: none
+    }
 
     .others-text{
         font-weight: 600;
@@ -116,12 +127,20 @@
     display: flex;
     flex-direction: column;
     margin-block-start: -20px;
+    @media only screen and (max-width: 426px){
+        display: flex;
+        @include flex-align;
+        flex-direction: column;
+    }
 
 
     .social-text{
         padding: 10px;
         font-weight: 600;
         font-size: 20px;
+        @media only screen and (max-width: 426px) {
+            display: none;
+        }
     }
 
     .icons{
@@ -129,6 +148,6 @@
     }
 
     .rights{
-        padding: 12px;
+        padding: 9px 12px 9px 12px;
     }
 }

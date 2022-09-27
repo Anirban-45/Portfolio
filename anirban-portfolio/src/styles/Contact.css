@@ -10,19 +10,37 @@
 
 .Ccontainer .top-welcome {
   display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
   width: 505px;
 }
 
 @media only screen and (max-width: 426px) {
   .Ccontainer .top-welcome {
-    width: 300px;
+    width: 330px;
   }
 }
 
-.Ccontainer .top-welcome #top-label {
+.Ccontainer .top-welcome img {
+  width: 70px;
+  margin-right: 20px;
+}
+
+@media only screen and (max-width: 426px) {
+  .Ccontainer .top-welcome img {
+    width: 60px;
+    margin-right: 10px;
+  }
+}
+
+.Ccontainer .top-welcome .top-item {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Ccontainer .top-welcome .top-item #top-label {
   font-family: "DM Sans", sans-serif;
   font-size: 30px;
   font-weight: 500;
@@ -30,7 +48,7 @@
 }
 
 @media only screen and (max-width: 426px) {
-  .Ccontainer .top-welcome #top-label {
+  .Ccontainer .top-welcome .top-item #top-label {
     font-size: 25px;
   }
 }

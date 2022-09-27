@@ -5,6 +5,13 @@
   margin-right: 120px;
 }
 
+@media only screen and (max-width: 426px) {
+  .container {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+}
+
 .container-front {
   display: flex;
   align-items: center;
@@ -95,21 +102,11 @@
   margin-top: 60px;
 }
 
-.container .layer-text::after {
-  content: '';
-  z-index: -1;
-  position: absolute;
-  right: 73.5%;
-  width: 18.5%;
-  height: 12px;
-  margin-top: 25px;
-  transition: all ease-in-out 0.35s;
-  background: #efd375;
-}
-
-.container .layer-text:hover::after {
-  right: 73.5%;
-  transform: scaleY(1.5);
+@media only screen and (max-width: 426px) {
+  .container .layer-text {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .container-card {
@@ -117,4 +114,11 @@
   align-items: center;
   justify-content: center;
   justify-content: space-between;
+}
+
+@media only screen and (max-width: 426px) {
+  .container-card {
+    display: flex;
+    flex-direction: column;
+  }
 }
