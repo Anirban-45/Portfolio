@@ -9,9 +9,8 @@
   background-color: #534666;
   font-family: "DM Sans", sans-serif;
   font-weight: 700;
-  z-index: 1;
-  position: sticky;
-  overflow: hidden;
+  z-index: 0;
+  position: fixed;
 }
 
 .navbar-container {
@@ -19,19 +18,19 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-left: 50px;
-  margin-right: 50px;
 }
 
 .navbar-container .navbar-logo {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-left: 50px;
 }
 
 @media only screen and (max-width: 768px) {
   .navbar-container .navbar-logo {
     padding-top: 20px;
+    margin-left: 50px;
   }
 }
 
@@ -42,6 +41,21 @@
 
 .navbar-container .navbar-item {
   padding: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar-container .navbar-item {
+    display: flex;
+    top: 90px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    height: 180px;
+    width: 100vw;
+    background: #534666;
+    padding: 0;
+  }
 }
 
 .navbar-container .navbar-item a {
@@ -55,7 +69,14 @@
 
 @media only screen and (max-width: 768px) {
   .navbar-container .navbar-item a {
-    display: none;
+    margin: 0px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar-container .navbar-item a:active {
+    padding: 8px 80vw;
+    background-color: #CD7672;
   }
 }
 
@@ -71,20 +92,27 @@
   transform: scaleX(0);
 }
 
+@media only screen and (max-width: 768px) {
+  .navbar-container .navbar-item a::after {
+    display: none;
+  }
+}
+
 .navbar-container .navbar-item a:hover::after {
   left: 2%;
   transform: scaleX(0.4);
 }
 
-.navbar-container .hamburger {
+.navbar-container .menu-toggle {
   display: none;
 }
 
 @media only screen and (max-width: 768px) {
-  .navbar-container .hamburger {
+  .navbar-container .menu-toggle {
     display: block;
     padding-top: 20px;
     cursor: pointer;
+    margin-right: 50px;
   }
 }
 
@@ -93,4 +121,10 @@
   border-radius: 25px;
   background-color: #CD7672;
   transition: all ease-in-out 0.35s;
+}
+
+@media only screen and (max-width: 768px) {
+  .active {
+    background-color: inherit;
+  }
 }

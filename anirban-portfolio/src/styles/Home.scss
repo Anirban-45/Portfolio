@@ -2,6 +2,7 @@
 
 .container{
     @include margin-lr(120px);
+    padding-top: 90px;
     @media only screen and (max-width: 426px) {
         @include margin-lr(30px);
     }

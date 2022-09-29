@@ -3,6 +3,7 @@
 .container {
   margin-left: 120px;
   margin-right: 120px;
+  padding-top: 90px;
 }
 
 @media only screen and (max-width: 426px) {

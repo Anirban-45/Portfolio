@@ -3,7 +3,7 @@
 .Ccontainer{
     @include flex-align;
     flex-direction: column;
-    margin-top: 35px;
+    padding-top: 35px + 90px;
 
     .top-welcome{
         display: flex;

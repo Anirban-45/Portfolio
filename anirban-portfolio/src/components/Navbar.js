@@ -3,8 +3,11 @@ import '../styles/Navbar.css'
 import {NavLink} from 'react-router-dom'
 import stingray from '../assets/stingray.png'
 import { FaBars } from 'react-icons/fa'
+import { FaTimes } from 'react-icons/fa'
+
 
 function Navbar() {
+
     return(
         <>
             <nav className="navbar">
@@ -19,7 +22,9 @@ function Navbar() {
                         <NavLink to="/work" activeClassName="navlinks">Work</NavLink>
                         <NavLink to="/contact" activeClassName="navlinks">Contact</NavLink>
                     </div>
-                    <FaBars className="hamburger"/>
+                    <div className="menu-toggle">
+                        <FaBars className="hamburger"/>
+                    </div>
                 </div>
             </nav>
         </>

@@ -9,21 +9,21 @@
     background-color: $primary;
     font-family: $font-main;
     font-weight: 700;
-    z-index: 1;
-    position: sticky;
-    overflow: hidden;
+    z-index: 0;
+    position: fixed;
 
     &-container{
         color: $font-primary;
         display: flex;
         align-items: center;
         justify-content: space-between;
-        @include margin-lr(50px);
 
         .navbar-logo{
             @include flex-align();
+            margin-left: 50px;
             @media only screen and (max-width: 768px){
                 padding-top: 20px;
+                margin-left: 50px;
             }
 
             img{
@@ -34,6 +34,18 @@
 
         .navbar-item{
             padding: 30px;
+            @media only screen and (max-width: 768px){
+                display: flex;
+                top: 90px;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                position: fixed;
+                height: 180px;
+                width: 100vw;
+                background: $primary;
+                padding: 0;
+            }
 
             a{
                 margin: 1.5rem;
@@ -43,7 +55,14 @@
                 border-radius: 25px;
                 position: relative;
                 @media only screen and (max-width: 768px){
-                    display: none;
+                    margin: 0px;
+                }
+
+                &:active{
+                    @media only screen and (max-width: 768px){
+                        padding: 8px 80vw;
+                        background-color: #CD7672;
+                    }
                 }
 
                 &::after{
@@ -56,6 +75,9 @@
                     transition: all ease-in-out 0.35s;
                     background: $secondary;
                     transform: scaleX(0);
+                    @media only screen and (max-width: 768px){
+                        display: none;
+                    }
                 }
 
                 &:hover::after{
@@ -65,13 +87,18 @@
             }
 
         }
-        .hamburger{
+        .menu-toggle{
             display: none;
             @media only screen and (max-width: 768px){
                 display: block;
                 padding-top: 20px;
                 cursor: pointer;
+                margin-right: 50px;
             }
+
+            .hamburger{
+            }
+
         }
     }
 }
@@ -81,4 +108,7 @@
     border-radius: 25px;
     background-color: #CD7672;
     transition: all ease-in-out 0.35s;
+    @media only screen and (max-width: 768px){
+        background-color: inherit;
+    }
 }
