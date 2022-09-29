@@ -56,7 +56,6 @@
     width: 100vw;
     background: #534666;
     padding: 0;
-    z-index: -99999;
     transition: all ease-in-out 0.4s;
   }
 }
@@ -108,8 +107,10 @@
   transform: scaleX(0.4);
 }
 
-.navbar-container .is-menu {
-  transform: translate(-100%);
+@media only screen and (max-width: 768px) {
+  .navbar-container .is-menu {
+    transform: translate(-100%);
+  }
 }
 
 .navbar-container .menu-toggle {

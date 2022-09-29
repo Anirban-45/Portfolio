@@ -14,6 +14,9 @@
             @include flex-align;
             flex-direction: column;
             margin-right: 30px;
+            @media only screen and (max-width: 426px){
+                display: none;
+            }
 
             .lineshape{
                 width: 3.5px;
@@ -34,17 +37,31 @@
             font-weight: 600;
             align-self: center;
             margin-right: 80px;
+            @media only screen and (max-width: 768px){
+                margin-right: 0px;
+            }
 
             .main-pg{
                 font-size: 40px;
+                @media only screen and (max-width: 768px){
+                    height: 200px;
+                    margin-top: 80px;
+                    font-size: 25px;
+                }
 
                 .colored-text-1{
+                    @media only screen and (max-width: 768px){
+                        color: $font-color1;
+                    }
                     &:hover{
                         color: $font-color1;
                     }
                 }
 
                 .colored-text-2{
+                    @media only screen and (max-width: 768px){
+                        color: $font-color2;
+                    }
                     &:hover{
                         color: $font-color2;
                     }
@@ -54,11 +71,17 @@
             p.second-pg-1{
                 font-size: 22px;
                 margin-bottom: 10px;
+                @media only screen and (max-width: 768px){
+                    font-size: 18px;
+                }
             }
 
             p.second-pg-2{
                 font-size: 28px;
                 margin-top: 0px;
+                @media only screen and (max-width: 768px){
+                    font-size: 20px;
+                }
 
                 .colored-text-3{
                     &:hover{
@@ -73,8 +96,13 @@
                 }
             }
 
-            p.desc-pg-1.desc-pg-2{
-                font-size: 22px;
+            p.desc-pg-1, .desc-pg-2{
+                margin-right: 350px;
+                line-height: 25px;
+                font-weight: 450;
+                @media only screen and (max-width: 768px){
+                    margin-right: 0px;
+                }
             }
 
             .colored-text-5{
@@ -106,7 +134,7 @@
         @include flex-align;
         justify-content: space-between;
 
-        @media only screen and (max-width: 426px) {
+        @media only screen and (max-width: 768px) {
             display: flex;
             flex-direction: column;
         }

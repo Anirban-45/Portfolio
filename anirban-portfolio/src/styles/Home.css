@@ -27,6 +27,12 @@
   margin-right: 30px;
 }
 
+@media only screen and (max-width: 426px) {
+  .container-front .fancy-shape {
+    display: none;
+  }
+}
+
 .container-front .fancy-shape .lineshape {
   width: 3.5px;
   height: 550px;
@@ -47,12 +53,38 @@
   margin-right: 80px;
 }
 
+@media only screen and (max-width: 768px) {
+  .container-front .container-text {
+    margin-right: 0px;
+  }
+}
+
 .container-front .container-text .main-pg {
   font-size: 40px;
 }
 
+@media only screen and (max-width: 768px) {
+  .container-front .container-text .main-pg {
+    height: 200px;
+    margin-top: 80px;
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container-front .container-text .main-pg .colored-text-1 {
+    color: #2C8DD3;
+  }
+}
+
 .container-front .container-text .main-pg .colored-text-1:hover {
   color: #2C8DD3;
+}
+
+@media only screen and (max-width: 768px) {
+  .container-front .container-text .main-pg .colored-text-2 {
+    color: #289646;
+  }
 }
 
 .container-front .container-text .main-pg .colored-text-2:hover {
@@ -64,9 +96,21 @@
   margin-bottom: 10px;
 }
 
+@media only screen and (max-width: 768px) {
+  .container-front .container-text p.second-pg-1 {
+    font-size: 18px;
+  }
+}
+
 .container-front .container-text p.second-pg-2 {
   font-size: 28px;
   margin-top: 0px;
+}
+
+@media only screen and (max-width: 768px) {
+  .container-front .container-text p.second-pg-2 {
+    font-size: 20px;
+  }
 }
 
 .container-front .container-text p.second-pg-2 .colored-text-3:hover {
@@ -77,8 +121,16 @@
   color: #B83F3F;
 }
 
-.container-front .container-text p.desc-pg-1.desc-pg-2 {
-  font-size: 22px;
+.container-front .container-text p.desc-pg-1, .container-front .container-text .desc-pg-2 {
+  margin-right: 350px;
+  line-height: 25px;
+  font-weight: 450;
+}
+
+@media only screen and (max-width: 768px) {
+  .container-front .container-text p.desc-pg-1, .container-front .container-text .desc-pg-2 {
+    margin-right: 0px;
+  }
 }
 
 .container-front .container-text .colored-text-5 {
@@ -117,7 +169,7 @@
   justify-content: space-between;
 }
 
-@media only screen and (max-width: 426px) {
+@media only screen and (max-width: 768px) {
   .container-card {
     display: flex;
     flex-direction: column;

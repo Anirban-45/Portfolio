@@ -25,10 +25,10 @@ function Home() {
                     <p className="second-pg-2">
                         I also work as a <span className="colored-text-3">Front-end developer</span> and a <span className="colored-text-4">Creative content writer</span>.
                     </p>
-                    <p className="desc-pg-1" style={{marginRight: "350px", lineHeight: "25px", fontWeight: "450"}}>
+                    <p className="desc-pg-1">
                         The way I have seen design that it's a very subjective and customized process.
                     </p>
-                    <p className="desc-pg-2" style={{marginRight: "350px", lineHeight: "25px", fontWeight: "450"}}>
+                    <p className="desc-pg-2">
                         One must know the crowd and blend into them to create a near perfect
                         and delightful design solution for them. And being an empath I see myself
                         striving for just that.<br/>
