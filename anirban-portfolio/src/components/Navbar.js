@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import '../styles/Navbar.css'
 import {NavLink} from 'react-router-dom'
 import stingray from '../assets/stingray.png'
@@ -7,6 +7,11 @@ import { FaTimes } from 'react-icons/fa'
 
 
 function Navbar() {
+    const [menuOpen, setMenuOpen] = useState(false);
+
+    const toggleHandler= () => {
+        setMenuOpen((p) => !p);
+    }
 
     return(
         <>
@@ -16,14 +21,15 @@ function Navbar() {
                         <img src={stingray} alt=""/>
                         Anirban
                     </div>
-                    <div className="navbar-item">
-                        <NavLink to="/Portfolio" activeClassName="navlinks">Home</NavLink>
-                        <NavLink to="/about" activeClassName="navlinks">About</NavLink>
-                        <NavLink to="/work" activeClassName="navlinks">Work</NavLink>
-                        <NavLink to="/contact" activeClassName="navlinks">Contact</NavLink>
+                    <div className={`${"navbar-item"} ${menuOpen? "" : "is-menu" }`}>
+                        <NavLink to="/Portfolio" activeClassName="navlinks" onClick={toggleHandler}>Home</NavLink>
+                        <NavLink to="/about" activeClassName="navlinks" onClick={toggleHandler}>About</NavLink>
+                        <NavLink to="/work" activeClassName="navlinks" onClick={toggleHandler}>Work</NavLink>
+                        <NavLink to="/contact" activeClassName="navlinks" onClick={toggleHandler}>Contact</NavLink>
                     </div>
                     <div className="menu-toggle">
-                        <FaBars className="hamburger"/>
+                        {menuOpen? <FaTimes onClick={toggleHandler} /> : <FaBars onClick={toggleHandler} />}
+
                     </div>
                 </div>
             </nav>

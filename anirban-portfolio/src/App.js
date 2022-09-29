@@ -12,7 +12,7 @@ function App() {
     return (
 
             <Router>
-                <Navbar className="navi"/>
+                <Navbar/>
                 <Routes>
                     <Route path="/Portfolio" element={<Home/>} />
                     <Route path="/about" element={<About/>} />
