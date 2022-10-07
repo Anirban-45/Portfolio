@@ -13,9 +13,13 @@
 
     &-container{
         color: $font-primary;
+        background-color: $primary;
         display: flex;
         align-items: center;
         justify-content: space-between;
+        @media only screen and (max-width: 768px){
+            padding-bottom: 25px;
+        }
 
         .navbar-logo{
             @include flex-align();
@@ -35,6 +39,7 @@
             padding: 30px;
             @media only screen and (max-width: 768px){
                 display: flex;
+                z-index: -1;
                 top: 90px;
                 right: 0;
                 left: 0;
@@ -94,14 +99,20 @@
         }
         .is-menu{
             @media only screen and (max-width: 768px){
-                transform: translate(-100%);
+                transform: translate(0,-140%);
+                z-index: -1;
+            }
+            a{
+                @media only screen and (max-width: 768px){
+                    z-index: -1;
+                }
             }
         }
         .menu-toggle{
             display: none;
             @media only screen and (max-width: 768px){
                 display: block;
-                padding-top: 20px;
+                margin-top: 20px;
                 cursor: pointer;
                 margin-right: 50px;
             }

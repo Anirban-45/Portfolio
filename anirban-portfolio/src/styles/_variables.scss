@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&display=swap');
+
+
+@keyframes blink-animation {
+    to {
+         visibility: hidden;
+    }
+}
 
 $primary: #534666;
 $secondary: #CD7672;
@@ -14,6 +22,7 @@ $font-color5: #4A3F90;
 
 $font-main: 'DM Sans', sans-serif;
 $font-body: 'Inter', sans-serif;
+$font-head: 'Poppins', sans-serif;
 
 @mixin margin-lr($space){
     margin-left: $space;
@@ -24,4 +33,10 @@ $font-body: 'Inter', sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+@mixin flex-alignsb(){
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }

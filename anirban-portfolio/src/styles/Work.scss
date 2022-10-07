@@ -1,0 +1,9 @@
+@import "variables.scss";
+
+.work-container{
+    padding-top: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: $font-main;
+}

@@ -19,6 +19,7 @@ function Home() {
                         Hello, I am Anirban.<br/>
                         And I work as a <span className="colored-text-1">UI/UX</span> and <span className="colored-text-2">Product designer</span>.
                     </p>
+                    <img src={profile} alt="" className="mb-image" />
                     <p className="second-pg-1">
                         To cover my full bases,
                     </p>

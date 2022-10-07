@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&display=swap");
 .container {
   margin-left: 120px;
   margin-right: 120px;
@@ -65,7 +66,7 @@
 
 @media only screen and (max-width: 768px) {
   .container-front .container-text .main-pg {
-    height: 200px;
+    height: 150px;
     margin-top: 80px;
     font-size: 25px;
   }
@@ -89,6 +90,19 @@
 
 .container-front .container-text .main-pg .colored-text-2:hover {
   color: #289646;
+}
+
+.container-front .container-text .mb-image {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .container-front .container-text .mb-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+  }
 }
 
 .container-front .container-text p.second-pg-1 {
@@ -150,7 +164,8 @@
 }
 
 .container .layer-text {
-  font-family: "DM Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
   font-size: 40px;
   margin-top: 60px;
 }
