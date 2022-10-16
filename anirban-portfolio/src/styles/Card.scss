@@ -11,6 +11,10 @@
     border-radius: 25px;
     @include flex-align;
     flex-direction: column;
+    @media only screen and (max-width: 1024px){
+        width: 250px;
+
+    }
     @media only screen and (max-width: 768px){
         width: 330px;
         display: flex;
@@ -49,6 +53,9 @@
         font-size: 22px;
         font-weight: 700;
         margin-bottom: 10px;
+        @media only screen and (max-width: 1024px){
+            font-size: 18px;
+        }
         @media only screen and (max-width: 768px){
             margin-top: 15px;
             font-size: 18px;
@@ -60,6 +67,9 @@
         font-weight: 500;
         @include margin-lr(30px);
         text-align: center;
+        @media only screen and (max-width: 1024px){
+            font-size: 14px;
+        }
         @media only screen and (max-width: 768px){
             display: none;
         }

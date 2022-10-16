@@ -3,25 +3,93 @@
 .container{
     @include margin-lr(120px);
     padding-top: 90px;
+    @media only screen and (max-width: 1024px) {
+        @include margin-lr(80px);
+    }
     @media only screen and (max-width: 426px) {
         @include margin-lr(30px);
     }
 
     &-front{
         @include flex-align();
+        @media only screen and (max-width: 426px){
+            flex-direction: column;
+        }
+
+        .container-mobile{
+            display: none;
+            @media only screen and (max-width: 426px){
+                width: 90vw;
+                margin-top: 30px;
+                margin-bottom: 20px;
+                @include flex-align;
+
+            }
+
+            .mb-image{
+                display: none;
+                width: 100px;
+                height: 100px;
+                @media only screen and (max-width: 426px){
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-right: 20px;
+                }
+            }
+
+            .main-pg-sm {
+                font-size: 40px;
+                font-family: $font-body;
+                font-weight: 600;
+                display: none;
+                @media only screen and (max-width: 768px){
+                    display: block;
+                    font-size: 22px;
+                }
+
+                .colored-text-1{
+                    @media only screen and (max-width: 768px){
+                        color: $font-color1;
+                    }
+                    &:hover{
+                        color: $font-color1;
+                    }
+                }
+
+                .colored-text-2{
+                    @media only screen and (max-width: 768px){
+                        color: $font-color2;
+                    }
+                    &:hover{
+                        color: $font-color2;
+                    }
+                }
+            }
+        }
 
         .fancy-shape{
             @include flex-align;
             flex-direction: column;
             margin-right: 30px;
+            @media only screen and (max-width: 1024px){
+                margin-right: 20px;
+            }
             @media only screen and (max-width: 426px){
-                display: none;
+                flex-direction: row;
             }
 
             .lineshape{
                 width: 3.5px;
                 height: 550px;
                 background-color: $primary;
+                @media only screen and (max-width: 1024px){
+                    height: 480px;
+                }
+                @media only screen and (max-width: 426px){
+                    height: 3.5px;
+                    width: 395px;
+                }
             }
 
             .circleshape{
@@ -32,21 +100,34 @@
             }
         }
 
+
+
         .container-text{
             font-family: $font-body;
             font-weight: 600;
             align-self: center;
             margin-right: 80px;
+            @media only screen and (max-width: 1024px){
+                margin-right: 20px;
+            }
             @media only screen and (max-width: 768px){
                 margin-right: 0px;
             }
+            @media only screen and (max-width: 426px){
+                margin-top: 10px;
+                width: 380px;
+            }
 
-            .main-pg{
+            .main-pg {
                 font-size: 40px;
+                @media only screen and (max-width: 1024px){
+                    font-size: 28px;
+                }
                 @media only screen and (max-width: 768px){
-                    height: 150px;
-                    margin-top: 80px;
                     font-size: 25px;
+                }
+                @media only screen and (max-width: 426px){
+                    display: none;
                 }
 
                 .colored-text-1{
@@ -68,19 +149,13 @@
                 }
             }
 
-            .mb-image{
-                display: none;
-                @media only screen and (max-width: 768px){
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    margin: 0px;
-                }
-            }
 
             p.second-pg-1{
                 font-size: 22px;
                 margin-bottom: 10px;
+                @media only screen and (max-width: 1024px){
+                    font-size: 19px;
+                }
                 @media only screen and (max-width: 768px){
                     font-size: 18px;
                 }
@@ -89,6 +164,9 @@
             p.second-pg-2{
                 font-size: 28px;
                 margin-top: 0px;
+                @media only screen and (max-width: 1024px){
+                    font-size: 22px;
+                }
                 @media only screen and (max-width: 768px){
                     font-size: 20px;
                 }
@@ -107,11 +185,21 @@
             }
 
             p.desc-pg-1, .desc-pg-2{
-                margin-right: 350px;
+                width: 480px;
                 line-height: 25px;
                 font-weight: 450;
+                @media only screen and (max-width: 1024px){
+                    width: 420px;
+                    font-size: 14px;
+                }
                 @media only screen and (max-width: 768px){
                     margin-right: 0px;
+                    font-size: 14px;
+                }
+                @media only screen and (max-width: 426px){
+                    width: 380px;
+                    margin-right: 0px;
+                    font-size: 13px;
                 }
             }
 
@@ -124,6 +212,11 @@
             width: 250px;
             height: 250px;
             border-radius: 130px;
+            @media only screen and (max-width: 1024px){
+                width: 200px;
+                height: 200px;
+                border-radius: 100px;
+            }
             @media only screen and (max-width: 768px){
                 display: none;
             }
@@ -134,9 +227,14 @@
         font-weight: 800;
         font-size: 40px;
         margin-top: 60px;
+        @media only screen and (max-width: 1024px){
+            font-size: 35px;
+            font-weight: 700;
+        }
         @media only screen and (max-width: 426px) {
-            display: flex;
-            flex-direction: column;
+            margin-top: 30px;
+            font-size: 30px;
+            font-weight: 700;
         }
 
     }

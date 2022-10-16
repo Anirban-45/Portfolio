@@ -10,6 +10,13 @@ function Home() {
     return(
         <div className="container">
             <div className="container-front">
+                <div className="container-mobile">
+                    <img src={profile} alt="" className="mb-image" />
+                    <p className="main-pg-sm">
+                        Hello, I am Anirban.<br/>
+                        And I work as a <span className="colored-text-1">UI/UX</span> and <span className="colored-text-2">Product designer</span>.
+                    </p>
+                </div>
                 <div className="fancy-shape">
                     <div className="lineshape"></div>
                     <div className="circleshape"></div>
@@ -19,7 +26,7 @@ function Home() {
                         Hello, I am Anirban.<br/>
                         And I work as a <span className="colored-text-1">UI/UX</span> and <span className="colored-text-2">Product designer</span>.
                     </p>
-                    <img src={profile} alt="" className="mb-image" />
+
                     <p className="second-pg-1">
                         To cover my full bases,
                     </p>

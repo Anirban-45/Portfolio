@@ -6,6 +6,10 @@ import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 import Home from './screens/Home'
 import About from './screens/About'
 import Work from './screens/Work'
+import Beditor from './screens/Projects/Beditor'
+import Jatayat from './screens/Projects/Jatayat'
+import Medibee from './screens/Projects/Medibee'
+
 import Contact from './screens/Contact'
 
 function App() {
@@ -18,6 +22,10 @@ function App() {
                     <Route path="/about" element={<About/>} />
                     <Route path="/work" element={<Work/>} />
                     <Route path="/contact" element={<Contact/>} />
+
+                    <Route path="/work/beditor" element={<Beditor/>} />
+                    <Route path="/work/jatayat" element={<Jatayat/>} />
+                    <Route path="/work/medibee" element={<Medibee/>} />
                 </Routes>
                 <Footer/>
             </Router>
