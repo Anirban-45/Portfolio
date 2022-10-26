@@ -5,6 +5,8 @@ import research from '../assets/research.png'
 import product from '../assets/growth.png'
 import development from '../assets/development.png'
 import Card from '../components/Card'
+import Jatayat from '../assets/Jatayat Mockup.jpeg'
+import Medibee from '../assets/Medibee Mockup.jpeg'
 
 function Home() {
     return(
@@ -46,13 +48,48 @@ function Home() {
                 </div>
                 <img src={profile} alt=""/>
             </div>
-            <div className="layer-text">My line of work</div>
-            <div className="container-card">
-                <Card image={research} title="Strategy Research" description="Understand the market, define the audience, and ideate potential solutions."/>
-                <Card image={product} title="Product Design" description="Understand the market, define the audience, and ideate potential solutions."/>
-                <Card image={development} title="Front-end Development " description="Understand the market, define the audience, and ideate potential solutions."/>
+            <div className="container-bt" style={{maxWidth: "1280px", margin: "auto"}}>
+                <div className="layer-text">My line of work</div>
+                <div className="container-card">
+                    <Card image={research} title="Strategy Research" description="Understand the market, define the audience, and ideate potential solutions."/>
+                    <Card image={product} title="Product Design" description="Understand the market, define the audience, and ideate potential solutions."/>
+                    <Card image={development} title="Front-end Development " description="Understand the market, define the audience, and ideate potential solutions."/>
+                </div>
+                <div className="layer-text">Recent works</div>
+                <div className="projs">
+                    <div className="view-1">
+                        <img src={Jatayat} alt=""/>
+                        <p>View project</p>
+                        <div className="fancy-shape-bt">
+                            <div className="fancy-shape-bt-1">
+                                <div className="circleshape"></div>
+                                <div className="lineshape"></div>
+                            </div>
+                            <div className="fancy-shape-bt-2">
+                                <div className="circleshape"></div>
+                                <div className="lineshape"></div>
+                                <div className="circleshape"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="view-2">
+                        <p>View project</p>
+                        <img src={Medibee} alt=""/>
+                        <div className="fancy-shape-bt">
+                            <div className="fancy-shape-bt-2">
+                                <div className="circleshape"></div>
+                                <div className="lineshape"></div>
+                                <div className="circleshape"></div>
+                            </div>
+                            <div className="fancy-shape-bt-1">
+                                <div className="lineshape"></div>
+                                <div className="circleshape"></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
             </div>
-            <div className="layer-text">Recent works</div>
         </div>
     )
 }

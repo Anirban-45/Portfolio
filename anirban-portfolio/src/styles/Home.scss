@@ -248,4 +248,351 @@
             flex-direction: column;
         }
     }
+
+    .projs{
+        @include flex-alignsb;
+        margin-top: 30px;
+        @media only screen and (max-width: 768px) {
+            @include flex-align;
+            flex-direction: column;
+        }
+
+        .view-1{
+            width: 550px;
+
+            @media only screen and (max-width: 426px) {
+                width: 375px;
+            }
+
+            p{
+                font-family: $font-main;
+                font-size: 16px;
+                font-weight: 600;
+                position: absolute;
+                margin-top: 406px;
+                margin-left: 400px;
+                z-index: -999;
+                display: none;
+                transition: 0.5s;
+                @media only screen and (max-width: 1024px) {
+                    margin-top: 316px;
+                    margin-left: 270px;
+                }
+                @media only screen and (max-width: 768px) {
+                    margin-top: 10px;
+                    margin-left: 430px;
+                    display: block;
+                }
+                @media only screen and (max-width: 426px) {
+                    margin-top: 0px;
+                    margin-left: 260px;
+                    display: block;
+                }
+            }
+
+            &:hover{
+
+                img{
+                    width: 500px;
+                    border: 5px solid black;
+                    display: block;
+                    z-index: -9999;
+                    position: absolute;
+                    margin-left: 40px;
+                    margin-top: 0px;
+                    @media only screen and (max-width: 1024px) {
+                        margin-top: 20px;
+                        width: 350px;
+                    }
+                    @media only screen and (max-width: 768px) {
+                        position: static;
+                        margin-left: 25px;
+                        margin-top: 35px;
+                        width: 500px;
+                    }
+                    @media only screen and (max-width: 426px) {
+                        position: static;
+                        margin: 10px;
+                        width: 350px;
+                    }
+                }
+
+                p{
+                    font-family: $font-main;
+                    font-size: 16px;
+                    font-weight: 600;
+                    position: absolute;
+                    margin-top: 406px;
+                    margin-left: 400px;
+                    z-index: -999;
+                    display: block;
+                    transition: 0.5s;
+                    @media only screen and (max-width: 1024px) {
+                        margin-top: 316px;
+                        margin-left: 270px;
+                    }
+                    @media only screen and (max-width: 768px) {
+                        margin-top: 10px;
+                        margin-left: 430px;
+                    }
+                    @media only screen and (max-width: 426px) {
+                        margin-top: 0px;
+                        margin-left: 260px;
+                    }
+                }
+            }
+
+            img{
+                width: 500px;
+                border: 5px solid black;
+                display: block;
+                z-index: -9999;
+                position: absolute;
+                margin-left: 25px;
+                margin-top: 15px;
+                transition: 0.3s;
+                @media only screen and (max-width: 1024px) {
+                    margin-top: 35px;
+                    width: 350px;
+                }
+                @media only screen and (max-width: 768px) {
+                    position: static;
+                    width: 500px;
+                }
+                @media only screen and (max-width: 426px) {
+                    position: static;
+                    margin: 10px;
+                    width: 350px;
+                }
+            }
+
+            .fancy-shape-bt{
+                @media only screen and (max-width: 768px) {
+                    display: none;
+                }
+                .fancy-shape-bt-1{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    width: 12px;
+                    margin-top: 100px;
+                    @media only screen and (max-width: 1024px) {
+                        margin-top: 150px;
+                    }
+
+                    .lineshape{
+                        width: 3.5px;
+                        height: 300px;
+                        background-color: $primary;
+                        @media only screen and (max-width: 1024px) {
+                            height: 160px;
+                        }
+                    }
+
+                    .circleshape{
+                        width: 12px;
+                        height: 12px;
+                        border-radius: 15px;
+                        background-color: $primary;
+                    }
+                }
+                .fancy-shape-bt-2{
+                    @include flex-align;
+                    flex-direction: row;
+                    margin-right: 178px;
+                    @media only screen and (max-width: 1024px) {
+                        margin-right: 208px;
+                    }
+
+                    .lineshape{
+                        height: 3.5px;
+                        width: 350px;
+                        background-color: $primary;
+                        @media only screen and (max-width: 1024px) {
+                            width: 200px;
+                        }
+                    }
+
+                    .circleshape{
+                        width: 12px;
+                        height: 12px;
+                        border-radius: 15px;
+                        background-color: $primary;
+                    }
+                }
+            }
+
+
+        }
+
+        .view-2{
+            width: 550px;
+            @media only screen and (max-width: 426px) {
+                width: 375px;
+            }
+
+            p{
+                font-family: $font-main;
+                font-size: 16px;
+                font-weight: 600;
+                margin-top: -5px;
+                margin-left: 40px;
+                position: absolute;
+                z-index: -999;
+                display: none;
+                @media only screen and (max-width: 1024px) {
+                    margin-top: -5px;
+                    margin-left: 60px;
+                }
+                @media only screen and (max-width: 768px) {
+                    margin-top: 455px;
+                    margin-left: 430px;
+                    display: block;
+                }
+                @media only screen and (max-width: 426px) {
+                    margin-top: 325px;
+                    margin-left: 260px;
+                    display: block;
+                }
+            }
+
+            &:hover{
+                img{
+                    width: 500px;
+                    border: 5px solid black;
+                    display: block;
+                    z-index: -9999;
+                    position: absolute;
+                    margin-right: 30px;
+                    margin-left: 0px;
+                    margin-top: 40px;
+                    @media only screen and (max-width: 1024px) {
+                        width: 350px;
+                        margin-left: 30px;
+                    }
+                    @media only screen and (max-width: 768px) {
+                        position: static;
+                        margin: 60px 25px 25px 25px;
+                        width: 500px;
+                    }
+                    @media only screen and (max-width: 426px) {
+                        position: static;
+                        margin: 40px 10px 10px 10px;
+                        width: 350px;
+                    }
+                }
+
+                p{
+                    font-family: $font-main;
+                    font-size: 16px;
+                    font-weight: 600;
+                    margin-top: -5px;
+                    margin-left: 40px;
+                    position: absolute;
+                    z-index: -999;
+                    display: block;
+                    @media only screen and (max-width: 1024px) {
+                        margin-top: -5px;
+                        margin-left: 60px;
+                    }
+                    @media only screen and (max-width: 768px) {
+                        margin-top: 455px;
+                        margin-left: 430px;
+                    }
+                    @media only screen and (max-width: 426px) {
+                        margin-top: 325px;
+                        margin-left: 260px;
+                    }
+                }
+            }
+
+            img{
+                width: 500px;
+                border: 5px solid black;
+                display: block;
+                z-index: -9999;
+                position: absolute;
+                margin-right: 15px;
+                margin-left: 15px;
+                margin-top: 25px;
+                transition: 0.3s;
+                @media only screen and (max-width: 1024px) {
+                    width: 350px;
+                    margin-left: 45px;
+                }
+                @media only screen and (max-width: 768px) {
+                    position: static;
+                    margin: 60px 25px 25px 25px;
+                    width: 500px;
+                }
+                @media only screen and (max-width: 426px) {
+                    position: static;
+                    margin: 40px 10px 10px 10px;
+                    width: 350px;
+                }
+            }
+
+            .fancy-shape-bt{
+                @media only screen and (max-width: 768px) {
+                    display: none;
+                }
+
+                .fancy-shape-bt-1{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    width: 12px;
+                    margin-bottom: 100px;
+                    margin-left: 538px;
+                    @media only screen and (max-width: 1024px) {
+                        margin-left: 420px;
+                    }
+
+                    .lineshape{
+                        width: 3.5px;
+                        height: 300px;
+                        background-color: $primary;
+                        @media only screen and (max-width: 1024px) {
+                            height: 160px;
+                        }
+                    }
+
+                    .circleshape{
+                        width: 12px;
+                        height: 12px;
+                        border-radius: 15px;
+                        background-color: $primary;
+                    }
+                }
+                .fancy-shape-bt-2{
+                    @include flex-align;
+                    flex-direction: row;
+                    margin-left: 178px;
+                    @media only screen and (max-width: 1024px) {
+                        margin-left: 208px;
+                    }
+
+                    .lineshape{
+                        height: 3.5px;
+                        width: 350px;
+                        background-color: $primary;
+                        @media only screen and (max-width: 1024px) {
+                            width: 200px;
+                        }
+                    }
+
+                    .circleshape{
+                        width: 12px;
+                        height: 12px;
+                        border-radius: 15px;
+                        background-color: $primary;
+                    }
+                }
+            }
+
+        }
+
+    }
 }
