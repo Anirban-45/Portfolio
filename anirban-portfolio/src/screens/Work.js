@@ -6,8 +6,12 @@ import Medibee from '../assets/Medibee Mockup.jpeg'
 import '../styles/Work.css'
 
 function Work() {
+    window.scrollTo(0,0);
     return(
         <div className="work-container">
+        <div className="beginningtext">
+            Following are a few projects That I have worked on!
+        </div>
             <Pcard
                 image={Jatayat}
                 title="Jatayat"

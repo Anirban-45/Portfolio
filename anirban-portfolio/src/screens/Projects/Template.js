@@ -3,25 +3,25 @@ import '../../styles/Projecttemplate.css'
 
 function Template(props) {
     return(
-        <div className="">
-            <label htmlFor="" className="pname"> {props.Title} </label>
+        <div className="project-head">
+            <label htmlFor="" className="pname"> {props.Title} </label><br/>
             <label htmlFor="" className="psub"> {props.Subtitle} </label>
             <div className="ov-dt">
                 <div className="overview">
-                    <label htmlFor="" className="ov">Project Overview</label>
-                    <p className="ov-text">{props.Overview}</p>
+                    <div className="ti">Project Overview</div>
+                    <div className="ov-text">{props.Overview}</div>
                 </div>
                 <div className="details">
-                    <label htmlFor="" className="ov">Project Details</label>
-                    <p className="dt-text">{props.Details}</p>
+                    <div  className="ti">Project Details</div>
+                    <div className="dt-text">{props.Details}</div>
                 </div>
             </div>
             <div className="problem-objective-goals">
-                <label htmlFor="" className="problem">Problem</label>
+                <div className="problem ti">Problem</div>
                 <p className="p-text">{props.Problem}</p>
-                <label htmlFor="" className="objective">Objective</label>
-                <p className="ob-text">{props.Objectibe}</p>
-                <label htmlFor="" className="goals">Goals</label>
+                <div className="objective ti">Objective</div>
+                <p className="ob-text">{props.Objective}</p>
+                <div className="goals ti">Goals</div>
                 <p className="g-text">{props.Goals}</p>
             </div>
         </div>

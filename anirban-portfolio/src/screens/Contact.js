@@ -5,6 +5,7 @@ import send from '../assets/send.png'
 
 
 function Contact() {
+    window.scrollTo(0,0);
     return(
         <div className='Ccontainer'>
             <div className="top-welcome">

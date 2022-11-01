@@ -6,6 +6,7 @@ import eyes from '../assets/b2.jpeg'
 
 
 function About() {
+    window.scrollTo(0,0);
     return(
         <div className="about-body">
             <div className="about-top">

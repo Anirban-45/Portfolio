@@ -9,6 +9,7 @@ import Jatayat from '../assets/Jatayat Mockup.jpeg'
 import Medibee from '../assets/Medibee Mockup.jpeg'
 
 function Home() {
+    window.scrollTo(0,0);
     return(
         <div className="container">
             <div className="container-front">

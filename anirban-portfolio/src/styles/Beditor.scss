@@ -1,5 +1,13 @@
 @import "variables.scss";
 
+.faceim{
+    padding-top: 90px;
+    width: 100%;
+}
+
 .bhero{
-    padding-top: 120px;
+    padding-top: 20px;
+    @include margin-lr(120px);
+
+
 }
