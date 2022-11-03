@@ -1,5 +1,9 @@
 @import "variables.scss";
 
+.faceim{
+    padding-top: 90px;
+    width: 100%
+}
 .jhero{
-    padding-top: 120px;
+    @include margin-lr(120px);
 }

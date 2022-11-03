@@ -57,7 +57,7 @@
     color: white;
 
     &:hover{
-        color: $tertiary;
+        color: $button;
         transition: all ease-in-out 0.35s;
     }
 }
@@ -115,7 +115,7 @@
 
             &:hover{
                 font-weight: 600;
-                color: $tertiary;
+                color: $button;
                 text-decoration: underline;
                 transition: all ease-in-out 0.3s;
             }

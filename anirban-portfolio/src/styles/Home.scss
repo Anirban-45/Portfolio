@@ -224,8 +224,8 @@
     }
     .layer-text{
         font-family: $font-head;
-        font-weight: 800;
-        font-size: 40px;
+        font-weight: 700;
+        font-size: 35px;
         margin-top: 60px;
         @media only screen and (max-width: 1024px){
             font-size: 35px;
@@ -236,7 +236,26 @@
             font-size: 30px;
             font-weight: 700;
         }
+    }
 
+    .work-layer{
+        @include flex-alignsb;
+        align-items: flex-end;
+
+        .browse{
+            width: 150px;
+            height: 35px;
+            border-radius: 25px;
+            margin-top: 20px;
+            border-width: 0;
+            padding: 5px;
+            background-color: $button;
+            transition: all 0.4s ease-in-out;
+            font-family: $font-main;
+            &:hover{
+                background-color: #f4a111;
+            }
+        }
     }
 
     &-card{

@@ -2,6 +2,7 @@ import React from 'react';
 import '../../styles/Beditor.css';
 import Template from './Template.js';
 import face from '../../assets/Beditor face.png';
+import set from '../../assets/settings.png';
 
 function Beditor() {
     window.scrollTo(0,0);
@@ -36,6 +37,13 @@ function Beditor() {
                         </>
                     }
                 />
+            </div>
+            <div className="solve">
+                    <div className="solve-title">
+                        <img src={set} alt=""/>
+                        <span>Strategies for solving</span>
+                    </div>
+                <p>So, for opting into this project I needed to understand what are the core things that people want to prioritize in their writing tools.</p>
             </div>
         </>
     )

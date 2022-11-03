@@ -7,9 +7,11 @@ import development from '../assets/development.png'
 import Card from '../components/Card'
 import Jatayat from '../assets/Jatayat Mockup.jpeg'
 import Medibee from '../assets/Medibee Mockup.jpeg'
+import {useNavigate} from 'react-router-dom'
 
 function Home() {
     window.scrollTo(0,0);
+    const navigate = useNavigate();
     return(
         <div className="container">
             <div className="container-front">
@@ -56,7 +58,10 @@ function Home() {
                     <Card image={product} title="Product Design" description="Understand the market, define the audience, and ideate potential solutions."/>
                     <Card image={development} title="Front-end Development " description="Understand the market, define the audience, and ideate potential solutions."/>
                 </div>
-                <div className="layer-text">Recent works</div>
+                <div className="work-layer">
+                    <div className="layer-text">Recent works</div>
+                    <input className='browse' type="submit" onClick={() => navigate("/work")} value="Browse all projects" />
+                </div>
                 <div className="projs">
                     <div className="view-1">
                         <img src={Jatayat} alt=""/>

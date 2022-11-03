@@ -313,8 +313,8 @@
 
 .container .layer-text {
   font-family: "Poppins", sans-serif;
-  font-weight: 800;
-  font-size: 40px;
+  font-weight: 700;
+  font-size: 35px;
   margin-top: 60px;
 }
 
@@ -331,6 +331,29 @@
     font-size: 30px;
     font-weight: 700;
   }
+}
+
+.container .work-layer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.container .work-layer .browse {
+  width: 150px;
+  height: 35px;
+  border-radius: 25px;
+  margin-top: 20px;
+  border-width: 0;
+  padding: 5px;
+  background-color: #EFC958;
+  transition: all 0.4s ease-in-out;
+  font-family: "DM Sans", sans-serif;
+}
+
+.container .work-layer .browse:hover {
+  background-color: #f4a111;
 }
 
 .container-card {

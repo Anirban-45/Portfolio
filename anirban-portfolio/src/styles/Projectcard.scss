@@ -94,7 +94,7 @@
                 font-size: 16px;
                 font-weight: 400;
                 padding: 10px;
-                background-color: $tertiary;
+                background-color: $button;
                 transition: all 0.4s ease-in-out;
                 @media only screen and (max-width: 1024px){
                     font-size: 14px;
@@ -106,7 +106,6 @@
 
                 &:hover{
                     background-color: #f4a111;
-
                 }
             }
         }

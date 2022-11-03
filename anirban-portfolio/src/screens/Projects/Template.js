@@ -17,7 +17,7 @@ function Template(props) {
                 </div>
             </div>
             <div className="problem-objective-goals">
-                <div className="problem ti">Problem</div>
+                <div className="problem ti">{props.addTitle}</div>
                 <p className="p-text">{props.Problem}</p>
                 <div className="objective ti">Objective</div>
                 <p className="ob-text">{props.Objective}</p>
