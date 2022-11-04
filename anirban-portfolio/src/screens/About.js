@@ -27,12 +27,25 @@ function About() {
                         <span style={{fontSize: "28px", fontWeight: "600", color: "#fff"}}>What lead me here</span>
                     </div>
                     <div>
-                        Aut fugiat inventore quia quisquam iure aut perspiciatis iste. Id amet sed hic tenetur et rem. Blanditiis eum architecto in autem repellat est. Qui vitae officia occaecati distinctio nam quis tempora. Cumque et est alias quas. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        I have always been interested in artworks and structures. All the manmade and the god-given natural entities enthralled me. Colors intrigued me.
+                        The geometric shapes, the way they are filled in with depths and textures, the way each separate person arranges them; They are bound to have a purpose. I have to say, finding order and patterns in certain places, ground binding architectures and interaction between people always made me think… <br/>
+                        <strong>- How do these physical proportions come together?</strong> <br/>
+                        <strong>- How do they form and attain order?</strong> <br/>
+                        <strong>- And what makes one piece unfit for the ecosystem?</strong>
                     </div>
-                    <div>A quo eos quia. Placeat quas recusandae unde voluptatem. Ex nostrum omnis adipisci. Pariatur in minima similique iusto distinctio. Odit quia non est earum pariatur commodi sunt sed. Nam explicabo saepe fugiat. Officiis qui velit possimus soluta. Reprehenderit consequuntur quod voluptates. Ad magni sunt ut adipisci officiis repellendus. A veniam non dolores.</div>
-                    <div>Enim et nihil omnis. Accusamus placeat laboriosam est. Sit occaecati iure perspiciatis quia. Illo perferendis minus consectetur consectetur nisi praesentium.</div>
-                    <div>Sit amet venenatis urna cursus eget nunc scelerisque. Nunc mi ipsum faucibus vitae aliquet nec ullamcorper sit amet. Arcu felis bibendum ut tristique et egestas quis. At risus viverra adipiscing at in tellus. Eget est lorem ipsum dolor sit amet. Iaculis at erat pellentesque adipiscing commodo elit at imperdiet dui. Augue eget arcu dictum varius duis at consectetur lorem. Elementum curabitur vitae nunc sed velit. Donec ultrices tincidunt arcu non sodales neque sodales ut. Auctor eu augue ut lectus arcu bibendum. Fringilla ut morbi tincidunt augue interdum velit euismod. Convallis posuere morbi leo urna molestie at elementum.</div>
-                    <div>Odit quia non est earum pariatur commodi sunt sed. Nam explicabo saepe fugiat. Officiis qui velit possimus soluta. Reprehenderit consequuntur quod voluptates. Ad magni sunt ut adipisci officiis repellendus. A veniam non dolores.</div>
+                    <div>
+                        Later down the line this curiosity led me to start writing. During my time in my university I used to write articles or stories about people and inanimate objects.
+                        Sketching up their roles into the environment they belong to. Traversing through this path I figured out a certain thing in me. The problems we see in our real life and however they are occurring,
+                        do actually have a reason of significance. Each and every human has a reason to do or want something out of a situation.
+                        And I for once wanted to get to the bottom of it. Learn to know about the problem’s architectures and affiliate myself in a better way of achieving possible successful outcomes.
+                    </div>
+                    <div>
+                        Now as I was doing bachelors in software engineering, I thought about a way to work through this within my career. During the pandemic there were a few free times in hand when I started to learn about
+                        the <strong>User Experience culture</strong> and became very interested in it. Getting myself familiarized with <strong>human centric narratives</strong> soon has driven me to find answers and connections amongst the world around us.
+                    </div>
+                    <div>
+                        In the end all I can say is that I am in love with UX. Because, I believe in the <strong>reasoning and the flow</strong> of structured entities.<strong> I believe, progress relies in acceptance and actions</strong>. And through different perspective we are sure to achieve better results.
+                    </div>
                 </div>
             </div>
             <div className="bottom-text">

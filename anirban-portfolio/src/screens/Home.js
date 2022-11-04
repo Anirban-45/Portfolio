@@ -63,7 +63,7 @@ function Home() {
                     <input className='browse' type="submit" onClick={() => navigate("/work")} value="Browse all projects" />
                 </div>
                 <div className="projs">
-                    <div className="view-1">
+                    <div className="view-1" onClick={() => navigate("/work/jatayat")}>
                         <img src={Jatayat} alt=""/>
                         <p>View project</p>
                         <div className="fancy-shape-bt">
@@ -78,7 +78,7 @@ function Home() {
                             </div>
                         </div>
                     </div>
-                    <div className="view-2">
+                    <div className="view-2" onClick={() => navigate("/work/medibee")}>
                         <p>View project</p>
                         <img src={Medibee} alt=""/>
                         <div className="fancy-shape-bt">

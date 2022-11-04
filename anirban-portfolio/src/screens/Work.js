@@ -17,21 +17,21 @@ function Work() {
                 title="Jatayat"
                 isNew={true}
                 url="/work/jatayat"
-                description="The website was built using Wix, which is a website builder"
+                description="Jatayat was a mobile application for any sort of bus services related to Dhaka."
             />
             <Pcard
                 image={Medibee}
                 title="Medibee"
                 isNew={true}
                 url="/work/medibee"
-                description="The website was built using Wix, which is a website builder"
+                description="Medibee is a course management platform for medical students."
             />
             <Pcard
                 image={Beditor}
                 title="Beditor"
                 isNew={false}
                  url="/work/beditor"
-                  description="The website was built using Wix, which is a website builder"
+                  description="A user friendly minimal writting tool for casual text documents."
               />
         </div>
     )
