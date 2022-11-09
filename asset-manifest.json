@@ -1,11 +1,17 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.9f78fd77.css",
-    "main.js": "/Portfolio/static/js/main.f1bf9d4e.js",
+    "main.css": "/Portfolio/static/css/main.c7685a27.css",
+    "main.js": "/Portfolio/static/js/main.d2c34065.js",
+    "static/media/Mcourse.jpg": "/Portfolio/static/media/Mcourse.717a4d045840f6a1a41f.jpg",
+    "static/media/Mhome.jpg": "/Portfolio/static/media/Mhome.35860b47c39179b97e0a.jpg",
+    "static/media/mlibrary.jpg": "/Portfolio/static/media/mlibrary.f15dd965d8c079d9ef16.jpg",
+    "static/media/Mprofile.jpg": "/Portfolio/static/media/Mprofile.a021321fe47201728c82.jpg",
     "static/media/Photo.jpeg": "/Portfolio/static/media/Photo.374d7a8fe68c86e0e406.jpeg",
+    "static/media/uj.jpg": "/Portfolio/static/media/uj.01ee17df0a063199f033.jpg",
     "static/media/Beditor Mockup.jpeg": "/Portfolio/static/media/Beditor Mockup.fb7b5eddd61b65f5b78a.jpeg",
     "static/media/Jatayat face.png": "/Portfolio/static/media/Jatayat face.b7e6530b0ee29199a7f4.png",
     "static/media/Medibee Mockup.jpeg": "/Portfolio/static/media/Medibee Mockup.2f9753a29eb97577525c.jpeg",
+    "static/media/cpt.jpg": "/Portfolio/static/media/cpt.eac02aa4f4423360e8b0.jpg",
     "static/media/Jatayat proto2.png": "/Portfolio/static/media/Jatayat proto2.84749571dd96fec2a91d.png",
     "static/media/Jatayat proto1.png": "/Portfolio/static/media/Jatayat proto1.ec1b5241d86d72ce3474.png",
     "static/media/Jatayat Mockup.jpeg": "/Portfolio/static/media/Jatayat Mockup.64384ad387afd4f8543b.jpeg",
@@ -20,11 +26,11 @@
     "static/media/stingray.png": "/Portfolio/static/media/stingray.43ca4ec3eb86f8eaa26a.png",
     "static/media/b2.jpeg": "/Portfolio/static/media/b2.30929f7d2285bf4e8a18.jpeg",
     "index.html": "/Portfolio/index.html",
-    "main.9f78fd77.css.map": "/Portfolio/static/css/main.9f78fd77.css.map",
-    "main.f1bf9d4e.js.map": "/Portfolio/static/js/main.f1bf9d4e.js.map"
+    "main.c7685a27.css.map": "/Portfolio/static/css/main.c7685a27.css.map",
+    "main.d2c34065.js.map": "/Portfolio/static/js/main.d2c34065.js.map"
   },
   "entrypoints": [
-    "static/css/main.9f78fd77.css",
-    "static/js/main.f1bf9d4e.js"
+    "static/css/main.c7685a27.css",
+    "static/js/main.d2c34065.js"
   ]
 }
