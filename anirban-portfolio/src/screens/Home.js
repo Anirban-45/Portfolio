@@ -55,8 +55,8 @@ function Home() {
                 <div className="layer-text">My line of work</div>
                 <div className="container-card">
                     <Card image={research} title="Strategy Research" description="Understand the market, define the audience, and ideate potential solutions."/>
-                    <Card image={product} title="Product Design" description="Develop an appropriate prototype according to The users wants and needs"/>
-                    <Card image={development} title="Front-end Development " description="Put the prototype into a web format and create front end components."/>
+                    <Card image={product} title="Product Design" description="Develop an appropriate prototype according to The users wants and needs."/>
+                    <Card image={development} title="Front-end Development " description="Put the prototype into a web format and create front end components to be attached with a data source."/>
                 </div>
                 <div className="work-layer">
                     <div className="layer-text">Recent works</div>
