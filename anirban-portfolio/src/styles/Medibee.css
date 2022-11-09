@@ -9,4 +9,60 @@
 
 .mhero {
   padding-top: 120px;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+@media only screen and (max-width: 426px) {
+  .mhero {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+}
+
+.proc .des-def .user-journey {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.proc .des-def .user-journey img {
+  width: 60vw;
+}
+
+@media only screen and (max-width: 768px) {
+  .proc .des-def .user-journey img {
+    width: 69vw;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .proc .des-def .user-journey img {
+    width: 86vw;
+  }
+}
+
+.proc .des-def .typo {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.proc .des-def .typo img {
+  width: 50vw;
+}
+
+@media only screen and (max-width: 768px) {
+  .proc .des-def .typo img {
+    width: 59vw;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .proc .des-def .typo img {
+    width: 86vw;
+  }
 }

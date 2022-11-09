@@ -10,7 +10,7 @@ import persona from '../../assets/Persona.png';
 import Template from './Template.js';
 
 function Jatayat() {
-    //window.scrollTo(0,0);
+    window.scrollTo(0,0);
     return(
         <>
             <img src={face} className="faceimj" alt=""/>
@@ -47,7 +47,7 @@ function Jatayat() {
                         <>
                             <span style={{fontWeight: "500"}}>- Follow a color theme according to the old version and sharpen it.</span><br/>
                             <span style={{fontWeight: "500"}}>- Research about the targeted customers and their pain points.</span> <br/>
-                            <span style={{fontWeight: "500"}}>- Assimilate the new features and accomodate them with the sponsorrs.</span><br/>
+                            <span style={{fontWeight: "500"}}>- Assimilate the new features and accomodate them with the sponsors.</span><br/>
                             <span style={{fontWeight: "500"}}>- polish the users personal accounts to attain maximus engagements</span>
                         </>
                     }

@@ -5,11 +5,9 @@ import face from '../../assets/Beditor face.png';
 import set from '../../assets/settings.png';
 import b1 from '../../assets/Beditor 1.png';
 import b2 from '../../assets/Beditor 2.png';
-import {useNavigate} from 'react-router-dom'
 
 function Beditor() {
     window.scrollTo(0,0);
-    const navigate = useNavigate();
     return(
         <>
             <div className="crop">
