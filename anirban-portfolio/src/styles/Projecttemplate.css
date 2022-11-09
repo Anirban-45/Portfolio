@@ -38,10 +38,43 @@
   align-items: flex-start;
 }
 
+@media only screen and (max-width: 768px) {
+  .project-head .ov-dt {
+    flex-direction: column;
+  }
+  .project-head .ov-dt .details {
+    margin-top: 30px;
+  }
+}
+
 .project-head .overview {
   width: 800px;
 }
 
+@media only screen and (max-width: 1024px) {
+  .project-head .overview {
+    width: 500px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .project-head .overview {
+    width: 525px;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .project-head .overview {
+    width: 85vw;
+  }
+}
+
 .project-head .details {
   width: 300px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .project-head .details {
+    width: 250px;
+  }
 }

@@ -1,9 +1,77 @@
 @import "variables.scss";
 
-.faceim{
+.faceimj{
     padding-top: 90px;
     width: 100%
 }
 .jhero{
     @include margin-lr(120px);
+    @media only screen and (max-width: 426px){
+        @include margin-lr(30px);
+    }
+}
+
+.proc{
+
+    .research{
+        .per{
+            @include flex-align;
+            flex-direction: column;
+            margin-bottom: 30px;
+
+            img{
+                width: 85%;
+            }
+        }
+    }
+    .inter{
+        .finding{
+            @include flex-alignsb;
+            @media only screen and (max-width: 426px){
+                flex-direction: column;
+            }
+
+            .finding-1{
+                width: 38vw;
+                @media only screen and (max-width: 1024px){
+                    width: 35vw
+                }
+                @media only screen and (max-width: 426px){
+                    width: 100%
+                }
+            }
+            .finding-2{
+                width: 38vw;
+                @media only screen and (max-width: 1024px){
+                    width: 35vw
+                }
+                @media only screen and (max-width: 426px){
+                    width: 100%
+                }
+            }
+        }
+    }
+
+    .des-def{
+
+        .wireframe{
+            @include flex-align;
+            margin-top: 40px;
+            margin-bottom: 40px;
+            .w1{
+                width: 50vw;
+            }
+        }
+        .sticker-board{
+            @include flex-align;
+            margin-top:40px;
+            margin-bottom: 40px;
+            .s1{
+                width: 40vw;
+            }
+            .s2{
+                width: 50vw;
+            }
+        }
+    }
 }

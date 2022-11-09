@@ -3,12 +3,18 @@ import '../../styles/Beditor.css';
 import Template from './Template.js';
 import face from '../../assets/Beditor face.png';
 import set from '../../assets/settings.png';
+import b1 from '../../assets/Beditor 1.png';
+import b2 from '../../assets/Beditor 2.png';
+import {useNavigate} from 'react-router-dom'
 
 function Beditor() {
     window.scrollTo(0,0);
+    const navigate = useNavigate();
     return(
         <>
-            <img className="faceim" src={face} alt=""/>
+            <div className="crop">
+                <img className="faceim" src={face} alt=""/>
+            </div>
             <div className="bhero">
                 <Template
                     Title= "Beditor"
@@ -33,17 +39,59 @@ function Beditor() {
                         <>
                             <span style={{fontWeight: "500"}}>- Achieve the most ease and accessability.</span><br/>
                             <span style={{fontWeight: "500"}}>- Acurately provide the document details and formatting support.</span><br/>
-                            <span style={{fontWeight: "500"}}>-A polished easy to understand UI from a markdown view.</span>
+                            <span style={{fontWeight: "500"}}>- A polished easy to understand UI from a markdown view.</span>
                         </>
                     }
                 />
             </div>
             <div className="solve">
-                    <div className="solve-title">
-                        <img src={set} alt=""/>
-                        <span>Strategies for solving</span>
+                <div className="solve-title">
+                    <img src={set} alt=""/>
+                    <span>Strategies for solving</span>
+                </div>
+                <p style={{lineHeight: "30px"}}>
+                    So, for opting into this project I needed to understand what are the core things that people want to prioritize in their writing tools. Firstly a small audit is needed to check out what the other tools and platforms offering. A few articles in medium would also help us to catch a few customer personas. Then After listing the finctionalities we can incorporate them in our designs. <br/><br/>
+                    We need to be intuitive about the interfaces and how the functionalities interact and follow each other. Finally design the components to format in the prototype.
+                </p>
+            </div>
+            <div className="proc">
+                <div className="research">
+                    <div className="research-title heding">Research</div>
+                    <p style={{lineHeight: "25px"}}>As per research plans I first audited the other text editors features. So, I sought 6 to 8 applications and listed out the most make or break features that they offered with respect to the customers and their documents. The most important feature that were provided by them were, <br/>- Outlines <br/>- Docment details <br/>- Markdown support <br/>- Hemmingway mode </p>
+                    <span style={{fontWeight: "500",  fontSize: "20px"}}>Marketplace analysis</span>
+                    <p style={{lineHeight: "25px"}}>The next thing is what the marketplace users requires and what they need. In theese sort of writing tool the users want a seamless experience in editing documents. Which means any sort of clutter in the screen is going to be an issue. Therefore a mode of less Ui would be necessary. Secondly a mode of statistics in the document is always very helpful for the user. Breaking the document into readability and grammatical correctness to give a full analysis of the text should be a really good plus point. Different language support is absolutely necessary but coding in the grammatical analysis for each and every language would be a hard to achieve task. <br/> Alongside all of this, the highlight and external link support is very useful as users mention. The highlights could be incorporated in the outline to provide a thorough fragmentation of the document. In the end, the folder structure of the document must be upfront to the user as he/she can edit multiple documents side by side concurrently.</p>
+                </div>
+                <div className="des-def">
+                    <div className="heding">Define and Design</div>
+                    <p>Based on the solution and processes I have the application architecture in mind. And it can be defined as following:</p>
+                    <table>
+                        <tr>
+                            <td>Text editor space</td>
+                            <td>The main editor will be visible as soon as the application is open</td>
+                        </tr>
+                        <tr>
+                            <td>Files</td>
+                            <td>Accessisng files can be done through a streching sidebar panel</td>
+                        </tr>
+                        <tr>
+                            <td>Outlines</td>
+                            <td>The outlines can be tabbed in with the Files</td>
+                        </tr>
+                        <tr>
+                            <td>Document statistics</td>
+                            <td>Document stats can be accessed through a button on the bottom right corner</td>
+                        </tr>
+                    </table>
+                    <p>Firstly lets look at the main view of the editor in the prototype.</p>
+                    <img src={b1} alt=""/>
+                    <p>Then let's focus onto the sidebar as it is a very crucial part of the application.</p>
+                    <img src={b2} alt=""/>
+                    <div className="proto">
+                        <a href="https://www.figma.com/proto/ujylx2uBvwiWrJdlgah2Vw/BEditor?page-id=0%3A1&node-id=2%3A2&viewport=458%2C337%2C0.29&scaling=scale-down&starting-point-node-id=2%3A2">
+                            <button className="viewbtn">View Prototype</button>
+                        </a>
                     </div>
-                <p>So, for opting into this project I needed to understand what are the core things that people want to prioritize in their writing tools.</p>
+                </div>
             </div>
         </>
     )

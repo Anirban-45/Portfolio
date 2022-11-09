@@ -24,14 +24,34 @@
         @include flex-alignsb;
         margin: 40px 0px;
         align-items: flex-start;
+            @media only screen and (max-width: 768px){
+                flex-direction: column;
+
+                .details{
+                    margin-top: 30px;
+                }
+            }
         }
+
 
         .overview{
             width: 800px;
+            @media only screen and (max-width: 1024px){
+                width: 500px;
+            }
+            @media only screen and (max-width: 768px){
+                width: 525px;
+            }
+            @media only screen and (max-width: 426px){
+                width: 85vw;
+            }
         }
 
         .details{
             width: 300px;
+            @media only screen and (max-width: 1024px){
+                width: 250px;
+            }
         }
 
 }
