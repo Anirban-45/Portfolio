@@ -1,22 +1,30 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.63d24ed6.css",
-    "main.js": "/Portfolio/static/js/main.67ab6d1d.js",
+    "main.css": "/Portfolio/static/css/main.9f78fd77.css",
+    "main.js": "/Portfolio/static/js/main.f1bf9d4e.js",
     "static/media/Photo.jpeg": "/Portfolio/static/media/Photo.374d7a8fe68c86e0e406.jpeg",
     "static/media/Beditor Mockup.jpeg": "/Portfolio/static/media/Beditor Mockup.fb7b5eddd61b65f5b78a.jpeg",
     "static/media/Jatayat face.png": "/Portfolio/static/media/Jatayat face.b7e6530b0ee29199a7f4.png",
     "static/media/Medibee Mockup.jpeg": "/Portfolio/static/media/Medibee Mockup.2f9753a29eb97577525c.jpeg",
+    "static/media/Jatayat proto2.png": "/Portfolio/static/media/Jatayat proto2.84749571dd96fec2a91d.png",
+    "static/media/Jatayat proto1.png": "/Portfolio/static/media/Jatayat proto1.ec1b5241d86d72ce3474.png",
     "static/media/Jatayat Mockup.jpeg": "/Portfolio/static/media/Jatayat Mockup.64384ad387afd4f8543b.jpeg",
     "static/media/about-image.jpg": "/Portfolio/static/media/about-image.f8d261c9faa42f864c0e.jpg",
     "static/media/Beditor face.png": "/Portfolio/static/media/Beditor face.1c03f1fc81dcb67c35c0.png",
+    "static/media/Beditor 1.png": "/Portfolio/static/media/Beditor 1.4e543de56dd185c75af5.png",
+    "static/media/wireframe1.png": "/Portfolio/static/media/wireframe1.e795139b13e5ee0c3a4a.png",
+    "static/media/sticker1.png": "/Portfolio/static/media/sticker1.afd1e209fec8ff23639b.png",
+    "static/media/Persona.png": "/Portfolio/static/media/Persona.239b887bf77cc57cd091.png",
+    "static/media/sticker2.png": "/Portfolio/static/media/sticker2.9adb5e162f36ce500ddc.png",
+    "static/media/Beditor 2.png": "/Portfolio/static/media/Beditor 2.e7578b18b98669bfdaa4.png",
     "static/media/stingray.png": "/Portfolio/static/media/stingray.43ca4ec3eb86f8eaa26a.png",
     "static/media/b2.jpeg": "/Portfolio/static/media/b2.30929f7d2285bf4e8a18.jpeg",
     "index.html": "/Portfolio/index.html",
-    "main.63d24ed6.css.map": "/Portfolio/static/css/main.63d24ed6.css.map",
-    "main.67ab6d1d.js.map": "/Portfolio/static/js/main.67ab6d1d.js.map"
+    "main.9f78fd77.css.map": "/Portfolio/static/css/main.9f78fd77.css.map",
+    "main.f1bf9d4e.js.map": "/Portfolio/static/js/main.f1bf9d4e.js.map"
   },
   "entrypoints": [
-    "static/css/main.63d24ed6.css",
-    "static/js/main.67ab6d1d.js"
+    "static/css/main.9f78fd77.css",
+    "static/js/main.f1bf9d4e.js"
   ]
 }
