@@ -16,7 +16,7 @@ function Medibee() {
                 <Template
                     Title= "Medibee"
                     Subtitle= "A course managing platform for medical students."
-                    Overview= {<>Medibee.com has already been a very successful website for the upcoming generations of doctors. They provide MBBS students with courses and exams to sharpen their skills. This project was handed to a few developers to make a mobile app for it. I was working there as a freelancer and was given the whole designing process of the first version of the app. As per the first version a few things were thought to be offered less in the app.</>}
+                    Overview= {<>Medibee.com.bd has already been a very successful website for the upcoming generations of doctors. They provide MBBS students with courses and exams to sharpen their skills. This project was handed to a few developers to make a mobile app for it. I was working there as a freelancer and was given the whole designing process of the first version of the app. As per the first version a few things were thought to be offered less in the app.</>}
                     Details=
                     {
                         <>
@@ -29,7 +29,7 @@ function Medibee() {
                         <>
                             <p>The objective was this project was pretty straightforward. To turn the Web application into an mobile app. Putting it in a compact form for easy to access use.</p>
                             <span style={{fontWeight: "500",  fontSize: "20px"}}>Problem</span>
-                            <p>The problem peeps out just when thinking about the project. In a website the course showcase is much easier. The advantage of browsing through courses reaching out the creators and mentors is far to easy. But for a mobile app achieving this is far to difficult. The problem of live and recorded courses, seperating them & upholding them to the usersjust as easily as the online web app would definitely be a tough job. Not to mention there was a support feature that would help the user texts one of his issues with the apps multitude of courses and exams. And one of the officials would handle it checking their databases. As a solo designer I had very few resources to work through. The assets were hard to find and several designs had to be re-imagined in order to achieve a better performance. So in theory achieving all of this was quite a daunting task.</p>
+                            <p>The problem peeps out just when thinking about the project. On a website, the course showcase is much easier. The advantage of browsing through courses reaching out to the creators and mentors is far too easy. But for a mobile app achieving this is far too difficult. The problem of live and recorded courses, separating them & upholding them to the users just as easily as the online web app would definitely be a tough job. Not to mention there was a support feature that would help the user text one of his issues with the app's multitude of courses and exams. And one of the officials would handle it by checking their databases. As a solo designer, I had very few resources to work through. The assets were hard to find and several designs had to be re-imagined in order to achieve better performance. So in theory achieving all of this was quite a daunting task.</p>
                         </>
                     }
                     Goals=
@@ -44,14 +44,14 @@ function Medibee() {
             <div className="proc">
                 <div className="research">
                     <div className="research-title heding">Research</div>
-                    <p style={{lineHeight: "25px"}}>In case of research this project was a bit hazy. As i was the only one working on it with access to very less resources, and my only client was the CEO of Kernel technologies himself. Therefore I neede to reach out to him everytime I needed a proper understanding of the architecture. Aside from the high expectations there where just something that would have been better to exclude from the mobile app. Like the creators should only use the Website for uploading, creating courses and article. Thus we have one less module to focus onto. There were several small detail imbued in this. I.e.</p>
-                    <p style={{lineHeight: "25px"}}>- Consulting with the CEO I have had figured out that seperating the tests into three partitions would make the selecting process easier for the user <br/>
-                    - The Events should be put in a separate page hwere all the events a re listed and can be accessed by hyperlinks<br/>
-                    - The profile pages should also include a statistics. Because this helps keeping track of the progressed and finished courses <br/>
-                    - The outline of the courses should be week basised for a sense of continuity. <br/>
+                    <p style={{lineHeight: "25px"}}>In the case of research, this project was a bit hazy. As I was the only one working on it with access to very less resources, and my only client was the CEO of Kernel technologies himself. Therefore I needed to reach out to him every time I needed a proper understanding of the architecture. Aside from the high expectations, there was just something that would have been better to exclude from the mobile app. For example, the creators should only use the Website for uploading and creating courses and articles. Thus we have one less module to focus on. There were several small details imbued in this. I.e.</p>
+                    <p style={{lineHeight: "25px"}}>- Consulting with the CEO I have figured out that separating the tests into three partitions would make the selection process easier for the user. <br/>
+                    - The Events should be put on a separate page where all the events are listed and can be accessed by hyperlinks.<br/>
+                    - The profile pages should also include statistics. Because this helps to keep track of the progressed and finished courses. <br/>
+                    - The outline of the courses should be week based for a sense of continuity. <br/>
                     - The support page(Texts) should be only accessible after entering a valid course or test code. <br/>
                     <br/>
-                    Now these findings were gathered by following a few other apps in the marketplace and running up a few handheld ideas from other sort of components. As the users were almost fully literate people the user journey will not confuse them as much. However the said features will really help the to navigate the app according to the UI.</p>
+                    Now, these findings were gathered by following a few other apps in the marketplace and running up a few handheld ideas from other sorts of components. As the users were almost fully literate people the user journey will not confuse them as much. However, the said features will really help them to navigate the app according to the UI.</p>
                 </div>
 
                 <div className="des-def">
@@ -60,7 +60,7 @@ function Medibee() {
                     <div className="user-journey">
                         <img src={uj} alt=""/>
                     </div>
-                    <p>The next important thingwas to create the color theme and typography. Which was created in regards with the website itself.</p>
+                    <p>The next important thing was to create the color theme and typography. Which was created in regard to the website itself.</p>
                     <div className="typo">
                         <img src={cpt} alt=""/>
                     </div>

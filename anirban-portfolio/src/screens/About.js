@@ -13,9 +13,9 @@ function About() {
                 <div className="top-text">
                     <div style={{fontSize: "22px", fontWeight: "500"}}>Hi there!</div>
                     <div style={{fontSize: "25px", fontWeight: "650", color: "#B83F3F"}}>My name is Anirban Tasfin Azad.</div>
-                    <div>Prior to my UX journey, I was adorned into front end Development. And working along there I found out, how important it is for contents to point and dirent towards eachother. <span style={{fontWeight: "700", color: "#2C8DD3"}}>It is the breath of the users journey</span> and makes the whole experience that much enjoyable.</div>
-                    <div>Scowering through multiple medias I came close to designing. Modeling my very own personalized products, the ability to create, fascinates me.</div>
-                    <div style={{fontWeight: "700", color: "#2C8DD3"}}>The things I've done so far are a pursuit to relate to people and their ease and accessibiliy.</div>
+                    <div>Prior to my UX journey, I was adorned into front-end Development. And working along there I found out, how important it is for contents to point and direct towards each other. <span style={{fontWeight: "700", color: "#2C8DD3"}}>It is the breath of the users' journey</span> and makes the whole experience that much more enjoyable.</div>
+                    <div>Scouring through multiple media I came close to designing. Modeling my very own personalized products, and the ability to create fascinates me.</div>
+                    <div style={{fontWeight: "700", color: "#2C8DD3"}}>The things I've done so far are a pursuit to relate to people and their ease and accessibility.</div>
                     <div>And as a designer I'm looking for just a group of people whom I can explore these Ideas.</div>
                 </div>
                 <img src={face} className="face" alt=""/>
@@ -28,19 +28,19 @@ function About() {
                     </div>
                     <div>
                         I have always been interested in artworks and structures. All the manmade and the god-given natural entities enthralled me. Colors intrigued me.
-                        The geometric shapes, the way they are filled in with depths and textures, the way each separate person arranges them; They are bound to have a purpose. I have to say, finding order and patterns in certain places, ground binding architectures and interaction between people always made me think… <br/>
+                        The geometric shapes, the way they are filled in with depths and textures, and the way each separate person arranges them; They bound to have a purpose. I have to say, finding order and patterns in certain places, ground-binding architectures, and interaction between people always made me think… <br/>
                         <strong>- How do these physical proportions come together?</strong> <br/>
                         <strong>- How do they form and attain order?</strong> <br/>
                         <strong>- And what makes one piece unfit for the ecosystem?</strong>
                     </div>
                     <div>
-                        Later down the line this curiosity led me to start writing. During my time in my university I used to write articles or stories about people and inanimate objects.
+                        Later down the line, this curiosity led me to start writing. During my time at my university, I used to write articles or stories about people and inanimate objects.
                         Sketching up their roles into the environment they belong to. Traversing through this path I figured out a certain thing in me. The problems we see in our real life and however they are occurring,
                         do actually have a reason of significance. Each and every human has a reason to do or want something out of a situation.
-                        And I for once wanted to get to the bottom of it. Learn to know about the problem’s architectures and affiliate myself in a better way of achieving possible successful outcomes.
+                        And I for once wanted to get to the bottom of it. Learn to know about the problem’s architectures and affiliate me in a better way of achieving possible successful outcomes.
                     </div>
                     <div>
-                        Now as I was doing bachelors in software engineering, I thought about a way to work through this within my career. During the pandemic there were a few free times in hand when I started to learn about
+                        Now as I was doing my bachelor's in software engineering, I thought about a way to work through this within my career. During the pandemic, there were a few free times in my hand when I started to learn about
                         the <strong>User Experience culture</strong> and became very interested in it. Getting myself familiarized with <strong>human centric narratives</strong> soon has driven me to find answers and connections amongst the world around us.
                     </div>
                     <div>

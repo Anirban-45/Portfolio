@@ -45,7 +45,7 @@ function Home() {
                         One must know the crowd and blend into them to create a near perfect
                         and delightful design solution for them. And being an empath I see myself
                         striving for just that.<br/>
-                        <span className="colored-text-5"> As I do so, you will also find me hanging around outdors or nearby any
+                        <span className="colored-text-5"> As I do so, you will also find me hanging around outdoors or nearby any
                         exhibitions, concerts or literary scenes.</span>
                     </p>
                 </div>

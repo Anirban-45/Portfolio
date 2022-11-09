@@ -17,7 +17,7 @@ function Beditor() {
                 <Template
                     Title= "Beditor"
                     Subtitle= "A Text editor for casual writing exercise."
-                    Overview= {<>Writings has been constructited and valued, as it is a way of formulating data in numerous ways. As a growing passion in constructive writing and coming from a Code oriented background this was my first personal project to build a proper consistent text editor. <span style={{fontWeight: "700"}}>This was focused on casual writing and journal making capability.</span></>}
+                    Overview= {<>Writings have been constructed and valued, as it is a way of formulating data in numerous ways. As a growing passion for constructive writing and coming from a Code oriented background, this was my first personal project to build a proper consistent text editor. <span style={{fontWeight: "700"}}>This was focused on casual writing and journal-making capability.</span></>}
                     Details=
                     {
                         <>
@@ -28,8 +28,7 @@ function Beditor() {
                     Objective=
                     {
                         <>The objective of this project was to create a seamless experience for writing. Providing various modes and pointing out the outlines while giving an easy way to format the text will be the main objective of this application.<br/><br/>
-                          Now coming into the genre of casual writing softwares, most of the user has been known to choose a particular software over "Microsoft Words" is for better writability, speed and ease of access. Yet due to most of the writing tools bulk and excessive settings somehow people gets overwhelmed. I
-                          In this case the basic wanted outcome is to create a minimalistic appwhile keeping a pretty handy level of features and usage.
+                          Now coming into the genre of casual writing software, most of the users have been known to choose a particular software over "Microsoft Word" is for better writability, speed, and ease of access. Yet due to most of the writing tool's bulk and excessive settings somehow people get overwhelmed. In this case, the basic wanted outcome is to create a minimalistic app while keeping a pretty handy level of features and usage.
                         </>
                     }
                     Goals=
@@ -48,20 +47,20 @@ function Beditor() {
                     <span>Strategies for solving</span>
                 </div>
                 <p style={{lineHeight: "30px"}}>
-                    So, for opting into this project I needed to understand what are the core things that people want to prioritize in their writing tools. Firstly a small audit is needed to check out what the other tools and platforms offering. A few articles in medium would also help us to catch a few customer personas. Then After listing the finctionalities we can incorporate them in our designs. <br/><br/>
-                    We need to be intuitive about the interfaces and how the functionalities interact and follow each other. Finally design the components to format in the prototype.
+                    So, for opting into this project I needed to understand what are the core things that people want to prioritize in their writing tools. Firstly a small audit is needed to check out what the other tools and platforms offer. A few articles in medium would also help us to catch a few customer personas. Then After listing the functionalities we can incorporate them into our designs. <br/><br/>
+                    We need to be intuitive about the interfaces and how the functionalities interact and follow each other. Finally, design the components to format in the prototype.
                 </p>
             </div>
             <div className="proc">
                 <div className="research">
                     <div className="research-title heding">Research</div>
-                    <p style={{lineHeight: "25px"}}>As per research plans I first audited the other text editors features. So, I sought 6 to 8 applications and listed out the most make or break features that they offered with respect to the customers and their documents. The most important feature that were provided by them were, <br/>- Outlines <br/>- Docment details <br/>- Markdown support <br/>- Hemmingway mode </p>
+                    <p style={{lineHeight: "25px"}}>As per the research plans, I first audited the other text editors' features. So, I sought 6 to 8 applications and listed out the most make-or-break features that they offered with respect to the customers and their documents. The most important feature that was provided by them were, <br/>- Outlines <br/>- Docment details <br/>- Markdown support <br/>- Hemmingway mode </p>
                     <span style={{fontWeight: "500",  fontSize: "20px"}}>Marketplace analysis</span>
-                    <p style={{lineHeight: "25px"}}>The next thing is what the marketplace users requires and what they need. In theese sort of writing tool the users want a seamless experience in editing documents. Which means any sort of clutter in the screen is going to be an issue. Therefore a mode of less Ui would be necessary. Secondly a mode of statistics in the document is always very helpful for the user. Breaking the document into readability and grammatical correctness to give a full analysis of the text should be a really good plus point. Different language support is absolutely necessary but coding in the grammatical analysis for each and every language would be a hard to achieve task. <br/> Alongside all of this, the highlight and external link support is very useful as users mention. The highlights could be incorporated in the outline to provide a thorough fragmentation of the document. In the end, the folder structure of the document must be upfront to the user as he/she can edit multiple documents side by side concurrently.</p>
+                    <p style={{lineHeight: "25px"}}>The next thing is what the marketplace users require and what they need. In these sorts of writing tools, the users want a seamless experience in editing documents. This means any sort of clutter on the screen is going to be an issue. Therefore a mode of less Ui would be necessary. Secondly, a mode of statistics in the document is always very helpful for the user. Breaking the document into readability and grammatical correctness to give a full analysis of the text should be a really good plus point. Different language support is absolutely necessary but coding in the grammatical analysis for each and every language would be a very hard-to-achieve task. <br/> Alongside all of this, the highlight and external link support are very useful as users mention. The highlights could be incorporated in the outline to provide a thorough fragmentation of the document. In the end, the folder structure of the document must be upfront to the user as he/she can edit multiple documents side by side concurrently.</p>
                 </div>
                 <div className="des-def">
                     <div className="heding">Define and Design</div>
-                    <p>Based on the solution and processes I have the application architecture in mind. And it can be defined as following:</p>
+                    <p>Based on the solution and processes I have the application architecture in mind. And it can be defined as the following:</p>
                     <table>
                         <tr>
                             <td>Text editor space</td>
