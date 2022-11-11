@@ -73,7 +73,7 @@ function About() {
                     <div style={{fontSize: "28px", fontWeight: "600", color: "#B83F3F", marginTop:"50px"}}>Skills</div>
                     <div className="design">Design</div>
                     <div><span style={{fontWeight: "600", color: "#2C8DD3"}}>Tools</span>- Figma, Whimsical, Lucid Chart, Aseprite</div>
-                    <div><span style={{fontWeight: "600", color: "#2C8DD3"}}>Techniques</span>- User flows, Wireframing, Prototyping, Journey maps, Design sytems, Gamification</div>
+                    <div><span style={{fontWeight: "600", color: "#2C8DD3"}}>Techniques</span>- User flows, Wireframing, Prototyping, Journey maps, Design systems, Gamification</div>
                     <div className="design" style={{marginTop:"20px"}}>Tech</div>
                     <div><span style={{fontWeight: "600", color: "#2C8DD3"}}>Languages</span>- C, C#, Python, JavaScript</div>
                     <div><span style={{fontWeight: "600", color: "#2C8DD3"}}>Frameworks & Services</span>- React, Firebase, MySQL, Mongo, AWS</div>
