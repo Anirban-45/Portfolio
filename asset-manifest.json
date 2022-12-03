@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.5e3abccc.css",
-    "main.js": "/Portfolio/static/js/main.759cac95.js",
-    "static/media/Mcourse.jpg": "/Portfolio/static/media/Mcourse.717a4d045840f6a1a41f.jpg",
+    "main.css": "/Portfolio/static/css/main.5408c82a.css",
+    "main.js": "/Portfolio/static/js/main.68f21c6e.js",
+    "static/media/Mcourse.jpg": "/Portfolio/static/media/Mcourse.276eda86974c0bf0b048.jpg",
     "static/media/Mhome.jpg": "/Portfolio/static/media/Mhome.35860b47c39179b97e0a.jpg",
     "static/media/mlibrary.jpg": "/Portfolio/static/media/mlibrary.f15dd965d8c079d9ef16.jpg",
     "static/media/Mprofile.jpg": "/Portfolio/static/media/Mprofile.a021321fe47201728c82.jpg",
     "static/media/Photo.jpeg": "/Portfolio/static/media/Photo.374d7a8fe68c86e0e406.jpeg",
+    "static/media/Jatayat face.png": "/Portfolio/static/media/Jatayat face.bf542d80176ded3af04d.png",
+    "static/media/Jatayat ag.jpg": "/Portfolio/static/media/Jatayat ag.513a4813f5dad337e2e1.jpg",
     "static/media/uj.jpg": "/Portfolio/static/media/uj.01ee17df0a063199f033.jpg",
     "static/media/Beditor Mockup.jpeg": "/Portfolio/static/media/Beditor Mockup.fb7b5eddd61b65f5b78a.jpeg",
-    "static/media/Jatayat face.png": "/Portfolio/static/media/Jatayat face.b7e6530b0ee29199a7f4.png",
     "static/media/Medibee Mockup.jpeg": "/Portfolio/static/media/Medibee Mockup.2f9753a29eb97577525c.jpeg",
     "static/media/cpt.jpg": "/Portfolio/static/media/cpt.eac02aa4f4423360e8b0.jpg",
     "static/media/Jatayat proto2.png": "/Portfolio/static/media/Jatayat proto2.84749571dd96fec2a91d.png",
@@ -20,17 +21,18 @@
     "static/media/Beditor 1.png": "/Portfolio/static/media/Beditor 1.4e543de56dd185c75af5.png",
     "static/media/wireframe1.png": "/Portfolio/static/media/wireframe1.e795139b13e5ee0c3a4a.png",
     "static/media/sticker1.png": "/Portfolio/static/media/sticker1.afd1e209fec8ff23639b.png",
+    "static/media/Medibee ag.jpg": "/Portfolio/static/media/Medibee ag.318c24e2bd882c2f5d47.jpg",
     "static/media/Persona.png": "/Portfolio/static/media/Persona.239b887bf77cc57cd091.png",
     "static/media/sticker2.png": "/Portfolio/static/media/sticker2.9adb5e162f36ce500ddc.png",
     "static/media/Beditor 2.png": "/Portfolio/static/media/Beditor 2.e7578b18b98669bfdaa4.png",
     "static/media/stingray.png": "/Portfolio/static/media/stingray.43ca4ec3eb86f8eaa26a.png",
     "static/media/b2.jpeg": "/Portfolio/static/media/b2.30929f7d2285bf4e8a18.jpeg",
     "index.html": "/Portfolio/index.html",
-    "main.5e3abccc.css.map": "/Portfolio/static/css/main.5e3abccc.css.map",
-    "main.759cac95.js.map": "/Portfolio/static/js/main.759cac95.js.map"
+    "main.5408c82a.css.map": "/Portfolio/static/css/main.5408c82a.css.map",
+    "main.68f21c6e.js.map": "/Portfolio/static/js/main.68f21c6e.js.map"
   },
   "entrypoints": [
-    "static/css/main.5e3abccc.css",
-    "static/js/main.759cac95.js"
+    "static/css/main.5408c82a.css",
+    "static/js/main.68f21c6e.js"
   ]
 }
