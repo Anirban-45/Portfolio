@@ -338,6 +338,7 @@
   align-items: center;
   justify-content: space-between;
   align-items: flex-end;
+  margin-top: 28px;
 }
 
 .container .work-layer .browse {
@@ -376,6 +377,7 @@
   align-items: center;
   justify-content: space-between;
   margin-top: 30px;
+  margin-bottom: 100px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -439,13 +441,13 @@
   display: block;
   z-index: -9999;
   position: absolute;
-  margin-left: 40px;
-  margin-top: 0px;
+  margin-left: 40.5px;
+  margin-top: 0.5px;
 }
 
 @media only screen and (max-width: 1024px) {
   .container .projs .view-1:hover img {
-    margin-top: 20px;
+    margin-top: 20.5px;
     width: 350px;
   }
 }
@@ -506,8 +508,8 @@
   display: block;
   z-index: -9999;
   position: absolute;
-  margin-left: 25px;
-  margin-top: 15px;
+  margin-left: 25.5px;
+  margin-top: 14px;
   transition: 0.3s;
 }
 
@@ -654,7 +656,7 @@
 .container .projs .view-2:hover img {
   width: 500px;
   border: 5px solid black;
-  display: block;
+  display: inline;
   z-index: -9999;
   position: absolute;
   margin-right: 30px;
@@ -680,7 +682,7 @@
 @media only screen and (max-width: 426px) {
   .container .projs .view-2:hover img {
     position: static;
-    margin: 40px 10px 10px 10px;
+    margin: 40px 10px 10px 9px;
     width: 350px;
   }
 }
@@ -720,11 +722,11 @@
 .container .projs .view-2 img {
   width: 500px;
   border: 5px solid black;
-  display: block;
+  display: inline;
   z-index: -9999;
   position: absolute;
   margin-right: 15px;
-  margin-left: 15px;
+  margin-left: 14.5px;
   margin-top: 25px;
   transition: 0.3s;
 }
@@ -732,7 +734,7 @@
 @media only screen and (max-width: 1024px) {
   .container .projs .view-2 img {
     width: 350px;
-    margin-left: 45px;
+    margin-left: 45.75px;
   }
 }
 

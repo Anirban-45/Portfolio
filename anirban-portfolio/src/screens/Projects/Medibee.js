@@ -56,7 +56,7 @@ function Medibee() {
 
                 <div className="des-def">
                     <div className="heding">Define</div>
-                    For defining the whole work process I had to imagine a User journey. As It is a fairly large project defining this was necessary.
+                    For defining the whole work process I had to imagine a User journey. As It is a fairly large project defining the roadmap was necessary. The key module features are projected with the darker blue rectangles which then branches out to their smaller services.
                     <div className="user-journey">
                         <img src={uj} alt=""/>
                     </div>
