@@ -56,11 +56,11 @@ function Medibee() {
 
                 <div className="des-def">
                     <div className="heding">Define</div>
-                    For defining the whole work process I had to imagine a User journey. As It is a fairly large project defining the roadmap was necessary. The key module features are projected with the darker blue rectangles which then branches out to their smaller services.
+                    <p style={{lineHeight: "25px"}}>For defining the whole work process I had to imagine a User journey. As It is a fairly large project defining the roadmap was necessary. The key module features are projected with the darker blue rectangles which then branches out to their smaller services. </p>
                     <div className="user-journey">
                         <img src={uj} alt=""/>
                     </div>
-                    <p>The next important thing was to create the color theme and typography. Which was created in regard to the website itself.</p>
+                    <p style={{lineHeight: "25px"}}>The next important thing was to create the color theme and typography. Which was created in regard to the website itself. As the practice of medicine has a moderate use of white and red it is only suited to have red components on a white background. Regarding the accent color green has very calming hue and shifting it onto the bluish side we get a sort of Turqouise/Teal colour. This colour was put in contrast to the red flair. The component boxes were filled with a few lighter tones of close quarter colors. The Font was used mostly on its "Light" weight. Only the titles of the pages were of "Semi Bold" weight, "Medium" weight on a few highlighted texts.</p>
                     <div className="typo">
                         <img src={cpt} alt=""/>
                     </div>

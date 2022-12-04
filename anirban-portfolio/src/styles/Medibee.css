@@ -52,12 +52,12 @@
 }
 
 .proc .des-def .typo img {
-  width: 50vw;
+  width: 56vw;
 }
 
 @media only screen and (max-width: 768px) {
   .proc .des-def .typo img {
-    width: 59vw;
+    width: 68vw;
   }
 }
 
