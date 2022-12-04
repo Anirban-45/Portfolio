@@ -1,12 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&display=swap");
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
 @keyframes blink-animation {
   to {
     visibility: hidden;
   }
 }
-
 .faceimj {
   padding-top: 90px;
   width: 100%;
@@ -16,7 +20,6 @@
   margin-left: 120px;
   margin-right: 120px;
 }
-
 @media only screen and (max-width: 426px) {
   .jhero {
     margin-left: 30px;
@@ -31,55 +34,45 @@
   flex-direction: column;
   margin-bottom: 30px;
 }
-
 .proc .research .per img {
   width: 85%;
 }
-
 .proc .inter .finding {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-
 @media only screen and (max-width: 426px) {
   .proc .inter .finding {
     flex-direction: column;
   }
 }
-
 .proc .inter .finding .finding-1 {
   width: 38vw;
 }
-
 @media only screen and (max-width: 1024px) {
   .proc .inter .finding .finding-1 {
     width: 35vw;
   }
 }
-
 @media only screen and (max-width: 426px) {
   .proc .inter .finding .finding-1 {
     width: 100%;
   }
 }
-
 .proc .inter .finding .finding-2 {
   width: 38vw;
 }
-
 @media only screen and (max-width: 1024px) {
   .proc .inter .finding .finding-2 {
     width: 35vw;
   }
 }
-
 @media only screen and (max-width: 426px) {
   .proc .inter .finding .finding-2 {
     width: 100%;
   }
 }
-
 .proc .des-def .wireframe {
   display: flex;
   align-items: center;
@@ -87,11 +80,9 @@
   margin-top: 40px;
   margin-bottom: 40px;
 }
-
 .proc .des-def .wireframe .w1 {
   width: 50vw;
 }
-
 .proc .des-def .sticker-board {
   display: flex;
   align-items: center;
@@ -99,11 +90,9 @@
   margin-top: 40px;
   margin-bottom: 40px;
 }
-
 .proc .des-def .sticker-board .s1 {
   width: 40vw;
 }
-
 .proc .des-def .sticker-board .s2 {
   width: 50vw;
 }
