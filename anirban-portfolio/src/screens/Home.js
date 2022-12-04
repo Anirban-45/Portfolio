@@ -1,13 +1,13 @@
 import React from 'react';
-import '../styles/Home.css'
-import profile from '../assets/Photo.jpeg'
-import research from '../assets/research.png'
-import product from '../assets/growth.png'
-import development from '../assets/development.png'
-import Card from '../components/Card'
-import Jatayat from '../assets/Jatayat ag.jpg'
-import Medibee from '../assets/Medibee ag.jpg'
-import {useNavigate} from 'react-router-dom'
+import '../styles/Home.css';
+import profile from '../assets/Photo.jpeg';
+import research from '../assets/research.png';
+import product from '../assets/growth.png';
+import development from '../assets/development.png';
+import Card from '../components/Card';
+import Jatayat from '../assets/Jatayat ag.jpg';
+import Medibee from '../assets/Medibee ag.jpg';
+import {useNavigate} from 'react-router-dom';
 
 function Home() {
     window.scrollTo(0,0);
