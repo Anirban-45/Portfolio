@@ -13,6 +13,20 @@ import Medibee from './screens/Projects/Medibee'
 import Contact from './screens/Contact'
 
 function App() {
+
+    const location = window.location.pathname
+    const footerStyler = () => {
+        if (location.startsWith('/work/')) {
+            return {
+                display: 'none'
+            }
+        }
+        else {
+            return {
+                display: 'block'
+            }
+        }
+    }
     return (
 
             <Router>

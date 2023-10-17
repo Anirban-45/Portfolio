@@ -69,7 +69,7 @@
                 &:active{
                     @media only screen and (max-width: 768px){
                         padding: 8px 50vw;
-                        background-color: #CD7672;
+                        background-color: $secondary;
                         transition: all ease-in-out 0.4s;
                     }
                 }
@@ -125,7 +125,7 @@
 .active{
     padding: 8px 18px;
     border-radius: 25px;
-    background-color: #CD7672;
+    background-color: $secondary;
     transition: all ease-in-out 0.35s;
     @media only screen and (max-width: 768px){
         background-color: inherit;

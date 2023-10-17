@@ -1,11 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&display=swap");
-@-webkit-keyframes blink-animation {
-  to {
-    visibility: hidden;
-  }
-}
 @keyframes blink-animation {
   to {
     visibility: hidden;
@@ -15,7 +10,8 @@
   width: 70vw;
   max-width: 1085px;
   font-family: "DM Sans", sans-serif;
-  background-color: white;
+  background-color: #F3F0E8;
+  display: flex;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -73,8 +69,7 @@
 .pcard-body .layer .nimage .new-project {
   width: 50px;
   padding-right: 30px;
-  -webkit-animation: blink-animation 1s steps(5, start) infinite;
-          animation: blink-animation 1s steps(5, start) infinite;
+  animation: blink-animation 1s steps(5, start) infinite;
 }
 @media only screen and (max-width: 1024px) {
   .pcard-body .layer .nimage .new-project {

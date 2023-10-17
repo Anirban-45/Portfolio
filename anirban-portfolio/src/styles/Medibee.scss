@@ -2,15 +2,18 @@
 
 .mhero{
     padding-top: 120px;
-    @include margin-lr(120px);
+    @include margin-lr(160px);
+    @media only screen and (max-width: 768px){
+        @include margin-lr(120px);
+    }
     @media only screen and (max-width: 426px){
         @include margin-lr(30px);
     }
 }
 
-.proc{
     .research{
-
+        width: 800px;
+        margin: auto;
     }
     .des-def{
         .user-journey{
@@ -41,4 +44,4 @@
             }
         }
     }
-}
+

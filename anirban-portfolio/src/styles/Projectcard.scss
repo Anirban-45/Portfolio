@@ -4,7 +4,8 @@
     width: 70vw;
     max-width: 1085px;
     font-family: $font-main;
-    background-color: white;
+    background-color: $background;
+    display: flex;
     @include flex-align;
     border-radius: 15px;
     box-sizing: border-box;

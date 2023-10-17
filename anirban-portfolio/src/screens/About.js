@@ -2,7 +2,6 @@ import React from 'react';
 import '../styles/About.css'
 import face from '../assets/about-image.jpg'
 import goal from '../assets/start-up.png'
-import eyes from '../assets/b2.jpeg'
 
 
 function About() {
@@ -60,7 +59,12 @@ function About() {
                     <div className="e-title-sp">Innova Solutions</div>
                     <div className="ocu">UX/UI Designer</div>
                     <div>Jan 2022 - May 2022</div>
-                    <img src={eyes} className="eyes" alt=""/>
+                    <div className="e-title-sp">Lily Social Commerce LTD.</div>
+                    <div className="ocu">UX Designer</div>
+                    <div>Jan 2023 - March 2023</div>
+                    <div className="e-title-sp">Safewheel LTD.</div>
+                    <div className="ocu">Product Designer</div>
+                    <div>March 2023 - Now</div>
                 </div>
                 <div className="bottom-right">
                     <div className="edu" style={{fontSize: "28px", fontWeight: "600", color: "#B83F3F"}}>Education</div>
@@ -72,7 +76,7 @@ function About() {
                     <div style={{color: "#2C8DD3"}}>SSC, science</div>
                     <div style={{fontSize: "28px", fontWeight: "600", color: "#B83F3F", marginTop:"50px"}}>Skills</div>
                     <div className="design">Design</div>
-                    <div><span style={{fontWeight: "600", color: "#2C8DD3"}}>Tools</span>- Figma, Whimsical, Lucid Chart, Aseprite</div>
+                    <div><span style={{fontWeight: "600", color: "#2C8DD3"}}>Tools</span>- Figma, Whimsical, Miro, Zeplin, Lucid Chart, Aseprite</div>
                     <div><span style={{fontWeight: "600", color: "#2C8DD3"}}>Techniques</span>- User flows, Wireframing, Prototyping, Journey maps, Design systems, Gamification</div>
                     <div className="design" style={{marginTop:"20px"}}>Tech</div>
                     <div><span style={{fontWeight: "600", color: "#2C8DD3"}}>Languages</span>- C, C#, Python, JavaScript</div>
